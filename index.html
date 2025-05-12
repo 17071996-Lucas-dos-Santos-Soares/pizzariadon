@@ -1,0 +1,2652 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./" type="image/x-icon">
+    <link rel="shortcut icon" href="assets/logo-pizzaria.png" type="image/x-icon">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="js/main.js" defer></script>
+    <title>Don Francesco</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" 
+    crossorigin="anonymous">
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <link rel="stylesheet"href="css/estilos.css"/>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  /> <!--fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700&family=Barlow:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+</head>
+<body data-bs-theme="light">
+  <header>
+    <nav class="navbar-expand-lg navbar fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><img src="assets/logo-pizzaria.png" alt="logotipo da pizzaria dom francesco" title="logo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><img src="assets/logo-pizzaria.png" alt="logotipo da pizzaria dom francesco" title="logo"></h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-center align-items-center flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Início <span><i class="bi bi-house-add-fill"></i></span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#servicos">Serviços <span><i class="bi bi-bell-fill"></i></span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#produtos">Produtos<span> <i class="fa-solid fa-pizza-slice"></i></span></a>
+              </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#sobre">Sobre <span><i class="bi bi-book-fill"></i></span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contato">Contato <span><i class="bi bi-phone-fill"></i></span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <div class="form-check form-switch">
+                    <input class="form-check-input d-none" type="checkbox" role="switch" id="dark-mode">
+                    <label class="form-check-label" for="dark-mode">
+                      <span><i class="bi bi-moon-stars"></i></span>
+                    </label>
+                  </div></a>
+              </li>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+      <section class="banners banner-1 d-flex flex-column justify-content-center text-center container-fluid">
+        <div class="banners-titulo py-5">
+          <h2 class="fw-bold title-1 animate-title1 text-left">Boas-vindas a pizzaria Don Francesco</h2>
+          <p class="paragraph1 text-left animate-paragraph1">Descubra uma explosão de sabor</p>
+          <button class="main-btn animate-main-btn" title="saiba-mais">
+            <a href="https://wa.me/5555119869128?text=Ol%C3%A1%2C%20boa%20noite%2C%20gostaria%20de%20fazer%20um%20pedido%3F" target="_blank">saiba mais<i class="bi bi-whatsapp btn"></i>
+            </a>
+          </button>
+        </div>
+      </section>
+      <section class="py-5" id="servicos">
+        <h2 class="fw-bold text-center pb-1 pt-4 title-servicos container-fluid">Nossos serviços</h2>
+        <div class="container d-flex justify-content-around flex-wrap">
+          <div class="card m-4" style="width: 20rem;">
+            <img src="assets/pizzaria-balcao.webp" class="card-img-top"
+              alt="Balcão de padaria tradicional com alimentos diversos">
+            <div class="card-body">
+              <h5 class="card-title py-2 fw-bold text-left">Atendimento ao Local &nbsp;<i class="bi bi-chat-dots-fill"></i></h5>
+              <p class="card-text"> Serviço para clientes que desejam comer no próprio restaurante, com mesas, garçons e ambiente decorado.</p>
+              <a href="#" class="btn botao-padrao w-100 fw-bold" data-bs-toggle="offcanvas" data-bs-target="#canvas-1" aria-controls="offcanvasRight">Quero detalhes</a>
+            </div>
+          </div>
+          <div class="card m-4" style="width: 20rem;">
+            <img src="assets/buffet-card.webp" class="card-img-top" alt="Mesa de buffet com alimentos diversos">
+            <div class="card-body">
+              <h5 class="card-title fw-bold text-left">Buffet <i class="fa-solid fa-pizza-slice"></i></h5>
+              <p class="card-text">Buffet e catering personalizado para eventos, produções e celebrações. Com
+                um menu variado e adaptável às preferências do cliente, atendimento atencioso e
+                profissional.</p>
+              <a href="#" class="btn botao-padrao w-100 fw-bold mt-3" data-bs-toggle="offcanvas"
+              data-bs-target="#canvas-2" aria-controls="offcanvasRight">Quero detalhes</a>
+            </div>
+          </div>
+          <div class="card m-4" style="width: 20rem;">
+            <img src="assets/delivery-card.webp" class="card-img-top" alt="Caixa aberta armazenando comidas diversas">
+            <div class="card-body">
+              <h5 class="card-title fw-bold text-left">Delivery <i class="fas fa-motorcycle"></i></h5>
+              <p class="card-text">Para quem deseja desfrutar no conforto de casa, oferecemos delivery dos
+                produtos. Com o mesmo cardápio variado de sempre, sem perder nosso sabor e padrão de
+                qualidade.</p>
+              <a href="#" class="btn botao-padrao w-100 fw-bold mt-3" data-bs-toggle="offcanvas"
+              data-bs-target="#canvas-3" aria-controls="offcanvasRight">Quero detalhes</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="banners banner-2 d-flex flex-column justify-content-center">
+        <div class="banners-titulo text-center py-5">
+          <h2 class="fw-bold title-2">Portas abertas para todos os públicos.</h2>
+          <p class="paragraph-2 text-center">Nosso espaço é aconchegante, pet friendly, <br/>preparado para receber crianças, pessoas com deficiência e
+            ambiente para coworking.</p>
+        </div>
+      </section>
+      <section class="py-5 nossos-produtos container-fluid" id="produtos">
+        <h2 class="fw-bold text-center pb-1 pt-4 title-produtos">nosso cardápio</h2>
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-4">
+              <div class="card mx-auto btn" data-bs-toggle="modal" data-bs-target="#modal-1"
+                  style="width: 18rem;">
+                  <img src="assets/pizza-abobrinha.webp" class="card-img-top img-fluid img-responsive" alt="abobrinha temperada e mussarela" title="pizza de abobrinha">
+                  <div class="card-body">
+                      <h3 class="card-text text-center fw-bold text-nowrap">Pizza de Abobrinha</h3>
+                  </div>
+              </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+              <div class="card mx-auto btn" data-bs-toggle="modal" data-bs-target="#modal-2"
+                  style="width: 18rem;">
+                  <img src="assets/pizza-aliche.webp" class="card-img-top img-fluid img-responsive" alt="filé de aliche, tomate e parmesão" title="pizza de aliche">
+                  <div class="card-body">
+                      <h3 class="card-text fw-bold text-center">Pizza de Aliche</h3>
+                  </div>
+              </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+              <div class="card mx-auto btn" data-bs-toggle="modal" data-bs-target="#modal-3" 
+              style="width: 18rem;">
+                  <img src="assets/pizza-alho-frito.webp" class="card-img-top img-fluid img-responsive" alt="mussarela e alho frito" title="pizza de alho">
+                  <div class="card-body">
+                      <h3 class="card-text text-center fw-bold text-nowrap">Pizza de Alho Frito</h3>
+                  </div>
+              </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+              <div class="card mx-auto btn" data-bs-toggle="modal" data-bs-target="#modal-4" 
+              style="width: 18rem;">
+                  <img src="assets/pizza-alho-poro.webp" class="card-img-top img-fluid img-responsive" alt="alho poro refogado, cebola e bakon" title="pizza de alho">
+                  <div class="card-body">
+                      <h3 class="card-text text-center fw-bold">pizza de alho poró</h3>
+                  </div>
+              </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+              <div class="card mx-auto btn" data-bs-toggle="modal" data-bs-target="#modal-5" 
+              style="width: 18rem;">
+                  <img src="assets/pizza-de-alcachofra.webp" class="card-img-top img-fluid img-responsive" alt="mussarela, coracao de alcachora" title="pizza de alcachofra">
+                  <div class="card-body">
+                      <h3 class="card-text text-center fw-bold">Pizza de Alcachofra</h3>
+                  </div>
+              </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+              <div class="card mx-auto btn" data-bs-toggle="modal" data-bs-target="#modal-6"
+              style="width: 18rem;">
+                  <img src="assets/pizza-de-atum.webp" class="card-img-top img-fluid img-responsive" alt="atum em pedaços e cebola" title="pizza de atum">
+                  <div class="card-body">
+                      <h3 class="card-text text-center fw-bold">Pizza de Atum</h3>
+                  </div>
+              </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card mx-auto btn" data-bs-toggle="modal" data-bs-target="#modal-7" 
+            style="width: 18rem;">
+                <img src="assets/red-bull.webp" class="card-img-top img-fluid img-responsive" alt="energético" title="red-bull">
+                <div class="card-body">
+                    <h3 class="card-text text-center fw-bold">Red Bull</h3>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card mx-auto btn" data-bs-toggle="modal" data-bs-target="#modal-8" 
+          style="width: 18rem;">
+              <img src="assets/pizza-de-bacon.webp" class="card-img-top img-fluid img-responsive" alt="bacon e mussarela" title="pizza de bacon">
+              <div class="card-body">
+                  <h3 class="card-text text-center fw-bold">Pizza de Bacon</h3>
+              </div>
+          </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="card mx-auto btn" data-bs-toggle="modal" data-bs-target="#modal-9" 
+        style="width: 18rem;">
+            <img src="assets/pizza-baiana.webp" class="card-img-top img-fluid img-responsive" alt="calabresa,moida,pimenta,ovos,cebola e mussarela" title="pizza baiana">
+            <div class="card-body">
+              <h3 class="card-text text-center fw-bold">Pizza Baiana</h3>
+            </div>
+        </div>
+    </div>
+    <div class="col-12 col-md-6 col-lg-4">
+      <div class="card mx-auto btn" data-bs-toggle="modal" data-bs-target="#modal-9" 
+      style="width: 18rem;">
+          <img src="assets/pizza-de-bauru.webp" class="card-img-top img-fluid img-responsive" alt="presunto,mussarela e tomate" title="pizza de bauru">
+          <div class="card-body">
+            <h3 class="card-text text-center fw-bold">Pizza de Bauru</h3>
+          </div>
+      </div>
+  </div>
+  <div class="col-12 col-md-6 col-lg-4">
+    <div class="card mx-auto btn" data-bs-toggle="modal" data-bs-target="#modal-10" 
+    style="width: 18rem;">
+        <img src="assets/pizza-de-berinjela.webp" class="card-img-top img-fluid img-responsive" alt="presunto,mussarela e tomate" title="pizza de bauru">
+        <div class="card-body">
+          <h3 class="card-text text-center fw-bold">Pizza de Beringela</h3>
+        </div>
+    </div>
+</div>
+<div class="col-12 col-md-6 col-lg-4">
+  <div class="card mx-auto btn" data-bs-toggle="modal" data-bs-target="#modal-11" 
+  style="width: 18rem;">
+      <img src="assets/pizza-brasileira.webp" class="card-img-top img-fluid img-responsive" alt="atum em pedaços, palmito e champignon" title="pizza brasileira">
+      <div class="card-body">
+        <h3 class="card-text text-center fw-bold">Pizza Brasileira</h3>
+      </div>
+  </div>
+</div>
+<div class="col-12 col-md-6 col-lg-4">
+  <div class="card mx-auto btn" data-bs-toggle="modal" data-bs-target="#modal-12" 
+  style="width: 18rem;">
+      <img src="assets/Pizza-de-brocolis-com-bacon.webp" class="card-img-top img-fluid img-responsive" alt="brocolis temperado, mussarela e bacon" title="pizza de brocolis">
+      <div class="card-body">
+        <h3 class="card-text text-center fw-bold">Pizza de Brócolis</h3>
+      </div>
+  </div>
+</div>
+<div class="col-12 col-md-6 col-lg-4">
+  <div class="card mx-auto btn" data-bs-toggle="modal" data-bs-target="#modal-13" 
+  style="width: 18rem;">
+      <img src="assets/pizza-de-brocolis-1.webp" class="card-img-top img-fluid img-responsive" alt="brocolis, palmito, mussarela e bacon" title="pizza de brocolis">
+      <div class="card-body">
+        <h3 class="card-text text-center fw-bold">Pizza de Brócolis 1</h3>
+      </div>
+  </div>
+</div>
+<div class="col-12 col-md-6 col-lg-4">
+  <div class="card mx-auto btn" data-bs-toggle="modal" data-bs-target="#modal-14"
+  style="width: 18rem;">
+      <img src="assets/pizza-caipira.webp" class="card-img-top img-fluid img-responsive" alt="frango temperado, milho e catupiri" title="pizza caipira">
+      <div class="card-body">
+        <h3 class="card-text text-center fw-bold">Pizza Caipira</h3>
+      </div>
+  </div>
+</div>
+<div class="col-12 col-md-6 col-lg-4">
+  <div class="card mx-auto btn" data-bs-toggle="modal" data-bs-target="#modal-15"
+  style="width: 18rem;">
+      <img src="assets/pizza-calabresa.webp" class="card-img-top img-fluid img-responsive" alt="calabresa fatidada e cebola" title="pizza calabresa">
+      <div class="card-body">
+        <h3 class="card-text text-center fw-bold">Pizza de calabresa</h3>
+      </div>
+  </div>
+</div>
+<div class="col-12 col-md-6 col-lg-4">
+  <div class="card mx-auto btn" data-bs-toggle="modal" data-bs-target="#modal-16"
+  style="width: 18rem;">
+      <img src="assets/pizza-de-calamussa.webp" class="card-img-top img-fluid img-responsive" alt="calabresa fatida, cebola e mussarela" title="pizza de calamussa">
+      <div class="card-body">
+        <h3 class="card-text text-center fw-bold">Pizza de calamussa</h3>
+      </div>
+  </div>
+</div>
+<div class="col-12 col-md-6 col-lg-4">
+  <div class="card mx-auto btn" data-bs-toggle="modal" data-bs-target="#modal-17"
+  style="width: 18rem;">
+      <img src="assets/pizza-de-camarao.webp" class="card-img-top img-fluid img-responsive" alt="camarao temperado catupiri ou mussarela" title="pizza de camarao">
+      <div class="card-body">
+        <h3 class="card-text text-center fw-bold">Pizza de camarão</h3>
+      </div>
+  </div>
+</div>
+<div class="col-12 col-md-6 col-lg-4">
+  <div class="card mx-auto btn" data-bs-toggle="modal" data-bs-target="#modal-18"
+  style="width: 18rem;">
+      <img src="assets/pizza-de-carne-seca.webp" class="card-img-top img-fluid img-responsive" alt="mussarela, ovos, carne seca temperada" title="pizza de carne seca">
+      <div class="card-body">
+        <h3 class="card-text text-center fw-bold">Pizza de carne seca</h3>
+      </div>
+  </div>
+</div>
+<div class="col-12 col-md-6 col-lg-4">
+  <div class="card mx-auto btn" data-bs-toggle="modal" data-bs-target="#modal-19"
+  style="width: 18rem;">
+      <img src="assets/pizza-cinco-queijos.webp" class="card-img-top img-fluid img-responsive" alt="mussarela, catupiri, provolone, parmesão, e gorgonzola" title="pizza de cinco queijos">
+      <div class="card-body">
+        <h3 class="card-text text-center fw-bold">Pizza de cinco queijos</h3>
+      </div>
+  </div>
+</div>
+<div class="col-12 col-md-6 col-lg-4">
+  <div class="card mx-auto btn" data-bs-toggle="modal" data-bs-target="#modal-20"
+  style="width: 18rem;">
+      <img src="assets/pizza-colonial.webp" class="card-img-top img-fluid img-responsive" alt="mussarela, pernil, cebola, catupri e alho poro" title="pizza colonial">
+      <div class="card-body">
+        <h3 class="card-text text-center fw-bold">Pizza colonial</h3>
+      </div>
+  </div>
+</div>
+<div class="col-12 col-md-6 col-lg-4">
+  <div class="card mx-auto btn" data-bs-toggle="modal" data-bs-target="#modal-21"
+  style="width: 18rem;">
+      <img src="assets/pizza-de-cream-cheese-1.webp" class="card-img-top img-fluid img-responsive" alt="peitu de peru, ovos, cebola, cream cheese, e pimentao vermelho" title="pizza de cream cheese">
+      <div class="card-body">
+        <h3 class="card-text text-center fw-bold">Pizza de cream cheese</h3>
+      </div>
+  </div>
+</div>
+<div class="col-12 col-md-6 col-lg-4">
+  <div class="card mx-auto btn" data-bs-toggle="modal" data-bs-target="#modal-22"
+  style="width: 18rem;">
+      <img src="assets/pizza-de-cream-cheese.webp" class="card-img-top img-fluid img-responsive" alt="peitu de peru, ovos, cebola, cream cheese, e pimentao vermelho" title="pizza de cream cheese">
+      <div class="card-body">
+        <h3 class="card-text text-center fw-bold">Pizza de cream cheese 1</h3>
+      </div>
+  </div>
+</div>
+<div class="col-12 col-md-6 col-lg-4">
+  <div class="card mx-auto btn" data-bs-toggle="modal" data-bs-target="#modal-23"
+  style="width: 18rem;">
+      <img src="assets/pizza-crocante.webp" class="card-img-top img-fluid img-responsive" alt="frango temperado, catupiry, e batata palha" title="pizza de crocante">
+      <div class="card-body">
+        <h3 class="card-text text-center fw-bold">Pizza crocante</h3>
+      </div>
+  </div>
+</div>
+<div class="col-12 col-md-6 col-lg-4">
+  <div class="card mx-auto btn" data-bs-toggle="modal" data-bs-target="#modal-24"
+  style="width: 18rem;">
+      <img src="assets/pizza-dois-queijos.webp" class="card-img-top img-fluid img-responsive" alt="mussarela e catupiri" title="pizza de dois queijos">
+      <div class="card-body">
+        <h3 class="card-text text-center fw-bold">Pizza de dois queijos</h3>
+      </div>
+  </div>
+</div>
+<div class="col-12 col-md-6 col-lg-4">
+  <div class="card mx-auto btn" data-bs-toggle="modal" data-bs-target="#modal-25"
+  style="width: 18rem;">
+      <img src="assets/pizza-don-francesco.webp" class="card-img-top img-fluid img-responsive" alt="atum em pedaços, cebola, catupiry, mussarela, e bacon" title="pizza don francesco">
+      <div class="card-body">
+        <h3 class="card-text text-center fw-bold">Pizza don francesco</h3>
+      </div>
+  </div>
+</div>
+<div class="col-12 col-md-6 col-lg-4">
+  <div class="card mx-auto btn" data-bs-toggle="modal" data-bs-target="#modal-26"
+  style="width: 18rem;">
+      <img src="assets/pizza-escarola.webp" class="card-img-top img-fluid img-responsive" alt="escarola refogada, mussarela, e bacon" title="pizza de escarola">
+      <div class="card-body">
+        <h3 class="card-text text-center fw-bold">Pizza de escarola</h3>
+      </div>
+  </div>
+</div>
+<div class="col-12 col-md-6 col-lg-4">
+  <div class="card mx-auto btn" data-bs-toggle="modal" data-bs-target="#modal-27"
+  style="width: 18rem;">
+      <img src="assets/pizza-de-file-mingon.webp" class="card-img-top img-fluid img-responsive" alt="mussarela, tiras de file mingon, catupiry, e alho frito" title="pizza de file mingon">
+      <div class="card-body">
+        <h3 class="card-text text-center fw-bold">Pizza de filé mingon</h3>
+      </div>
+  </div>
+</div>
+<div class="col-12 col-md-6 col-lg-4">
+  <div class="card mx-auto btn" data-bs-toggle="modal" data-bs-target="#modal-28"
+  style="width: 18rem;">
+      <img src="assets/pizza-de-frango-com-catupiry.webp" class="card-img-top img-fluid img-responsive" alt="frango temperado e catupiry" title="pizza de frango com catupiry">
+      <div class="card-body">
+        <h3 class="card-text text-center fw-bold">Pizza de frango com catupiry</h3>
+      </div>
+  </div>
+</div>
+<div class="col-12 col-md-6 col-lg-4">
+  <div class="card mx-auto btn" data-bs-toggle="modal" data-bs-target="#modal-29" style="width: 18rem;">
+      <img src="assets/pizza-hot-dog.webp" class="card-img-top img-fluid img-responsive" alt="mussarela, salsicha, milho, ervilha, catupiry, cheddar, e batata palha" title="pizza de hot dog">
+      <div class="card-body">
+        <h3 class="card-text text-center fw-bold">Pizza de hot dog</h3>
+      </div>
+  </div>
+</div>
+<div class="col-12 col-md-6 col-lg-4">
+  <div class="card mx-auto btn" data-bs-toggle="modal" data-bs-target="#modal-30"
+  style="width: 18rem;">
+      <img src="assets/pizza-de-lombo.webp" class="card-img-top img-fluid img-responsive" alt="lombo, cebola, mussarela, catupiri, e bacon" title="pizza de lombo">
+      <div class="card-body">
+        <h3 class="card-text text-center fw-bold">Pizza de lombo</h3>
+      </div>
+  </div>
+</div>
+<div class="col-12 col-md-6 col-lg-4">
+  <div class="card mx-auto btn" data-bs-toggle="modal" data-bs-target="#modal-31"
+  style="width: 18rem;">
+      <img src="assets/pizza-marguerita.webp" class="card-img-top img-fluid img-responsive" alt="mussarela, manjericao, tomate, e parmesao" title="pizza de marguerita">
+      <div class="card-body">
+        <h3 class="card-text text-center fw-bold">Pizza de marguerita</h3>
+      </div>
+  </div>
+</div>
+<div class="col-12 col-md-6 col-lg-4">
+  <div class="card mx-auto btn" data-bs-toggle="modal" data-bs-target="#modal-32"
+  style="width: 18rem;">
+      <img src="assets/pizza-milho-verde.webp" class="card-img-top img-fluid img-responsive" alt="milho verde, catupiry, ou mussarela" title="pizza de milho verde">
+      <div class="card-body">
+        <h3 class="card-text text-center fw-bold">Pizza de milho verde</h3>
+      </div>
+  </div>
+</div>
+<div class="col-12 col-md-6 col-lg-4">
+  <div class="card mx-auto btn" data-bs-toggle="modal" data-bs-target="#modal-33"
+  style="width: 18rem;">
+      <img src="assets/pizza-da-casa.webp" class="card-img-top img-fluid img-responsive" alt="frango temperado, palmito, champignon, ervilha, ovos, bacon, e mussarela" title="pizza a moda da casa">
+      <div class="card-body">
+        <h3 class="card-text text-center fw-bold">Pizza a moda da casa</h3>
+      </div>
+  </div>
+</div>
+<div class="col-12 col-md-6 col-lg-4">
+  <div class="card mx-auto btn" data-bs-toggle="modal" data-bs-target="#modal-34"
+  style="width: 18rem;">
+      <img src="assets/pizza-de-mussarela.webp" class="card-img-top img-fluid img-responsive" alt="mussarela e tomate" title="pizza de mussarela">
+      <div class="card-body">
+        <h3 class="card-text text-center fw-bold">Pizza de mussarela</h3>
+      </div>
+  </div>
+</div>
+<div class="col-12 col-md-6 col-lg-4">
+  <div class="card mx-auto btn" data-bs-toggle="modal" data-bs-target="#modal-35"
+  style="width: 18rem;">
+      <img src="assets/pizza-napoliana.webp" class="card-img-top img-fluid img-responsive" alt="mussarela, tomate, e parmesao" title="pizza napolitana">
+      <div class="card-body">
+        <h3 class="card-text text-center fw-bold">Pizza napolitana</h3>
+      </div>
+  </div>
+</div>
+<div class="col-12 col-md-6 col-lg-4">
+  <div class="card mx-auto btn" data-bs-toggle="modal" data-bs-target="#modal-36"
+  style="width: 18rem;">
+      <img src="assets/pizza-palmito.webp" class="card-img-top img-fluid img-responsive" alt="palmito e mussarela" title="pizza de palmito">
+      <div class="card-body">
+        <h3 class="card-text text-center fw-bold">Pizza de palmito</h3>
+      </div>
+  </div>
+</div>
+<div class="col-12 col-md-6 col-lg-4">
+  <div class="card mx-auto btn" data-bs-toggle="modal" data-bs-target="#modal-37"
+  style="width: 18rem;">
+      <img src="assets/pizza-peperoni.webp" class="card-img-top img-fluid img-responsive" alt="mussarela e peperoni" title="pizza de peperoni">
+      <div class="card-body">
+        <h3 class="card-text text-center fw-bold">Pizza de peperoni</h3>
+      </div>
+  </div>
+</div>
+<div class="col-12 col-md-6 col-lg-4">
+  <div class="card mx-auto btn" data-bs-toggle="modal" data-bs-target="#modal-38"
+  style="width: 18rem;">
+      <img src="assets/pizza-pernil.webp" class="card-img-top img-fluid img-responsive" alt="pernil, ovos, mussarela, provolone, tomate, e bacon" title="pizza de pernil">
+      <div class="card-body">
+        <h3 class="card-text text-center fw-bold">Pizza de pernil</h3>
+      </div>
+  </div>
+</div>
+<div class="col-12 col-md-6 col-lg-4">
+  <div class="card mx-auto btn" data-bs-toggle="modal" data-bs-target="#modal-39"
+  style="width: 18rem;">
+      <img src="assets/pizza-peru.webp" class="card-img-top img-fluid img-responsive" alt="peitu de peru,, cebola, mussarela, catupiri, parmesao, e bacon" title="pizza de peru">
+      <div class="card-body">
+        <h3 class="card-text text-center fw-bold">Pizza de peru</h3>
+      </div>
+  </div>
+</div>
+<div class="col-12 col-md-6 col-lg-4">
+  <div class="card mx-auto btn" data-bs-toggle="modal" data-bs-target="#modal-40"
+  style="width: 18rem;">
+      <img src="assets/pizza-portuguesa.webp" class="card-img-top img-fluid img-responsive" alt="presunto, ervilha ovos, cebola, e mussarela" title="pizza portuguesa">
+      <div class="card-body">
+        <h3 class="card-text text-center fw-bold">Pizza portuguesa</h3>
+      </div>
+  </div>
+</div>
+<div class="col-12 col-md-6 col-lg-4">
+  <div class="card mx-auto btn" data-bs-toggle="modal" data-bs-target="#modal-41"
+  style="width: 18rem;">
+      <img src="assets/pizza-primavera.webp" class="card-img-top img-fluid img-responsive" alt="presunto, milho, mussarela, catupiri, parmesao, e bacon" title="pizza primavera">
+      <div class="card-body">
+        <h3 class="card-text text-center fw-bold">Pizza primavera</h3>
+      </div>
+  </div>
+</div>
+<div class="col-12 col-md-6 col-lg-4">
+  <div class="card mx-auto btn" data-bs-toggle="modal" data-bs-target="#modal-42"
+  style="width: 18rem;">
+      <img src="assets/pizza-4-queijos.webp" class="card-img-top img-fluid img-responsive" alt="mussarela, catupiri, provolone, e parmesao" title="pizza de 4 queijos">
+      <div class="card-body">
+        <h3 class="card-text text-center fw-bold">Pizza de 4 queijos</h3>
+      </div>
+  </div>
+</div>
+<div class="col-12 col-md-6 col-lg-4">
+  <div class="card mx-auto btn" data-bs-toggle="modal" data-bs-target="#modal-43"
+  style="width: 18rem;">
+      <img src="assets/pizza-romana.webp" class="card-img-top img-fluid img-responsive" alt="mussarela, aliche, tomate, e parmesao" title="pizza romana">
+      <div class="card-body">
+        <h3 class="card-text text-center fw-bold">Pizza romana</h3>
+      </div>
+  </div>
+</div>
+<div class="col-12 col-md-6 col-lg-4">
+  <div class="card mx-auto btn" data-bs-toggle="modal" data-bs-target="#modal-44"
+  style="width: 18rem;">
+      <img src="assets/pizza-rucula.webp" class="card-img-top img-fluid img-responsive" alt="mussarela, rucula, e tomate seco" title="pizza de rucula">
+      <div class="card-body">
+        <h3 class="card-text text-center fw-bold">Pizza de rúcula</h3>
+      </div>
+  </div>
+</div>
+<div class="col-12 col-md-6 col-lg-4">
+  <div class="card mx-auto btn" data-bs-toggle="modal" data-bs-target="#modal-45"
+  style="width: 18rem;">
+      <img src="assets/pizza-rucula-especial.webp" class="card-img-top img-fluid img-responsive" alt="mussarela de bufala, rucula, e tomate seco" title="pizza de rucula especial">
+      <div class="card-body">
+        <h3 class="card-text text-center fw-bold">Pizza de rúcula especial</h3>
+      </div>
+  </div>
+</div>
+<div class="col-12 col-md-6 col-lg-4">
+  <div class="card mx-auto btn" data-bs-toggle="modal" data-bs-target="#modal-46"
+  style="width: 18rem;">
+      <img src="assets/pizza-siciliana.webp" class="card-img-top img-fluid img-responsive" alt="champignon, mussarela, e bacon" title="pizza siciliana">
+      <div class="card-body">
+        <h3 class="card-text text-center fw-bold">Pizza siciliana</h3>
+      </div>
+  </div>
+</div>
+<div class="col-12 col-md-6 col-lg-4">
+  <div class="card mx-auto btn" data-bs-toggle="modal" data-bs-target="#modal-47"
+  style="width: 18rem;">
+      <img src="assets/pizza-toscana.webp" class="card-img-top img-fluid img-responsive" alt="calabresa moida, cebola, e mussarela" title="pizza siciliana">
+      <div class="card-body">
+        <h3 class="card-text text-center fw-bold">Pizza toscana</h3>
+      </div>
+  </div>
+</div>
+<div class="col-12 col-md-6 col-lg-4">
+  <div class="card mx-auto btn" data-bs-toggle="modal" data-bs-target="#modal-48"
+  style="width: 18rem;">
+      <img src="assets/pizza-tres-queijos.webp" class="card-img-top img-fluid img-responsive" alt="mussarela, catupiri, e parmesao" title="pizza de tres queijos">
+      <div class="card-body">
+        <h3 class="card-text text-center fw-bold">Pizza de 3 queijos</h3>
+      </div>
+  </div>
+</div>
+<div class="col-12 col-md-6 col-lg-4">
+  <div class="card mx-auto btn" data-bs-toggle="modal" data-bs-target="#modal-49"
+  style="width: 18rem;">
+      <img src="assets/pizza-vegetariana.webp" class="card-img-top img-fluid img-responsive" alt="brocolis, coracao de alcachofra, palmito, ervilha, milho, champignon, mussarela, e catupiri" title="pizza vegetariana">
+      <div class="card-body">
+        <h3 class="card-text text-center fw-bold">Pizza vegetariana</h3>
+      </div>
+  </div>
+</div>
+<div class="col-12 col-md-6 col-lg-4">
+  <div class="card mx-auto btn" data-bs-toggle="modal" data-bs-target="#modal-50"
+  style="width: 18rem;">
+      <img src="assets/pizza-banana.webp" class="card-img-top img-fluid img-responsive" alt="banana, leite condensado, e canela" title="pizza de banana com canela">
+      <div class="card-body">
+        <h3 class="card-text text-center fw-bold">Pizza de banana com canela</h3>
+      </div>
+  </div>
+</div>
+<div class="col-12 col-md-6 col-lg-4">
+  <div class="card mx-auto btn" data-bs-toggle="modal" data-bs-target="#modal-51"
+  style="width: 18rem;">
+      <img src="assets/pizza-biz.webp" class="card-img-top img-fluid img-responsive" alt="chocolate ao leite e biz" title="pizza de biz">
+      <div class="card-body">
+        <h3 class="card-text text-center fw-bold">Pizza de biz</h3>
+      </div>
+  </div>
+</div>
+<div class="col-12 col-md-6 col-lg-4">
+  <div class="card mx-auto btn" data-bs-toggle="modal" data-bs-target="#modal-52"
+  style="width: 18rem;">
+      <img src="assets/pizza-de-brigadeiro.webp" class="card-img-top img-fluid img-responsive" alt="chocolate ao leite e granulado" title="pizza de brigadeiro">
+      <div class="card-body">
+        <h3 class="card-text text-center fw-bold">Pizza de brigadeiro</h3>
+      </div>
+  </div>
+</div>
+<div class="col-12 col-md-6 col-lg-4">
+  <div class="card mx-auto btn" data-bs-toggle="modal" data-bs-target="#modal-53"
+  style="width: 18rem;">
+      <img src="assets/pizza-confete.webp" class="card-img-top img-fluid img-responsive" alt="chocolate ao leite e confetes coloridos" title="pizza de confetes">
+      <div class="card-body">
+        <h3 class="card-text text-center fw-bold">Pizza de confete</h3>
+      </div>
+  </div>
+</div>
+<div class="col-12 col-md-6 col-lg-4">
+  <div class="card mx-auto btn" data-bs-toggle="modal" data-bs-target="#modal-54"
+  style="width: 18rem;">
+      <img src="assets/pizza-chocolate-banana.webp" class="card-img-top img-fluid img-responsive" alt="chocolate ao leite, banana fatiada, e leite condensado" title="pizza de chocolate com banana">
+      <div class="card-body">
+        <h3 class="card-text text-center fw-bold">Pizza de chocolate com banana</h3>
+      </div>
+  </div>
+</div>
+<div class="col-12 col-md-6 col-lg-4">
+  <div class="card mx-auto btn" data-bs-toggle="modal" data-bs-target="#modal-55"
+  style="width: 18rem;">
+      <img src="assets/pizza-chocolate-morango.webp" class="card-img-top img-fluid img-responsive" alt="chocolate ao leite e morango" title="pizza de chocolate com morango">
+      <div class="card-body">
+        <h3 class="card-text text-center fw-bold">Pizza de chocolate com morango</h3>
+      </div>
+  </div>
+</div>
+<div class="col-12 col-md-6 col-lg-4">
+  <div class="card mx-auto btn" data-bs-toggle="modal" data-bs-target="#modal-56"
+  style="width: 18rem;">
+      <img src="assets/pizza-nutella.webp" class="card-img-top img-fluid img-responsive" alt="nutella com morango ou banana ou confete" title="pizza de nutela">
+      <div class="card-body">
+        <h3 class="card-text text-center fw-bold">Pizza de nutella</h3>
+      </div>
+  </div>
+</div>
+<div class="col-12 col-md-6 col-lg-4">
+  <div class="card mx-auto btn" data-bs-toggle="modal" data-bs-target="#modal-57"
+  style="width: 18rem;">
+      <img src="assets/pizza-prestígio.webp" class="card-img-top img-fluid img-responsive" alt="chocolate ao leite e coco ralado" title="pizza de prestígio">
+      <div class="card-body">
+        <h3 class="card-text text-center fw-bold">Pizza de prestígio</h3>
+      </div>
+  </div>
+</div>
+<div class="col-12 col-md-6 col-lg-4">
+  <div class="card mx-auto btn" data-bs-toggle="modal" data-bs-target="#modal-58"
+  style="width: 18rem;">
+      <img src="assets/pizza-romeu-e-julieta.webp" class="card-img-top img-fluid img-responsive" alt="goiabada e mussarela" title="pizza de romeu e julieta">
+      <div class="card-body">
+        <h3 class="card-text text-center fw-bold">Pizza de romeu e julieta</h3>
+      </div>
+  </div>
+</div>
+  </section>
+  <section class="py-5 nossos-produtos container-fluid" id="produtos">
+    <h2 class="fw-bold text-center pb-1 pt-4 title-produtos">bebidas</h2>
+    <div class="row">
+<div class="col-12 col-md-6 col-lg-4">
+  <div class="card mx-auto btn" data-bs-toggle="modal" data-bs-target="#modal-59" style="width: 18rem;">
+  <img src="assets/coca.png" class="card-img-top img-fluid img-responsive" alt="abobrinha temperada e mussarela" title="pizza de abobrinha">
+<div class="card-body">
+  <h3 class="card-text text-center fw-bold text-nowrap">coca cola</h3>
+  </div>
+</div>
+  </div>
+<div class="col-12 col-md-6 col-lg-4">
+  <div class="card mx-auto btn" data-bs-toggle="modal" data-bs-target="#modal-60" style="width: 18rem;">
+  <img src="assets/sprite-2-litros.webp" class="card-img-top img-fluid img-responsive" alt="refrigerante de limao" title="sprite-2-litros">
+<div class="card-body">
+  <h3 class="card-text text-center fw-bold text-nowrap">sprite</h3>
+  </div>
+  </div>
+</div>
+<div class="col-12 col-md-6 col-lg-4">
+  <div class="card mx-auto btn" data-bs-toggle="modal" data-bs-target="#modal-61" style="width: 18rem;">
+  <img src="assets/guarana.webp" class="card-img-top img-fluid img-responsive" alt="refrigerante de guarana" title="guarana antartica">
+<div class="card-body">
+  <h3 class="card-text text-center fw-bold text-nowrap">Guarana antartica</h3>
+  </div>
+  </div>
+</div>
+<div class="col-12 col-md-6 col-lg-4">
+  <div class="card mx-auto btn" data-bs-toggle="modal" data-bs-target="#modal-62" style="width: 18rem;">
+  <img src="assets/fanta-uva.webp" class="card-img-top img-fluid img-responsive" alt="refrigerante de uva" title="fanta uva">
+<div class="card-body">
+  <h3 class="card-text text-center fw-bold text-nowrap">Fanta uva</h3>
+</div>
+  </div>
+</div>
+<div class="col-12 col-md-6 col-lg-4">
+  <div class="card mx-auto btn" data-bs-toggle="modal" data-bs-target="#modal-63" style="width: 18rem;">
+  <img src="assets/Refrigerante-Guarana-Antarctica-Zero-2.webp" class="card-img-top img-fluid img-responsive" alt="refrigerante de guarana zero" title="fanta uva">
+<div class="card-body">
+  <h3 class="card-text text-center fw-bold text-nowrap">Guarana antartica zero</h3>
+  </div>
+</div>
+  </div>
+<div class="col-12 col-md-6 col-lg-4">
+  <div class="card mx-auto btn" data-bs-toggle="modal" data-bs-target="#modal-64" style="width: 18rem;">
+  <img src="assets/coca-cola-lata-350-ml-.webp" class="card-img-top img-fluid img-responsive" alt="refrigerante de cola" title="coca cola">
+  <div class="card-body">
+  <h3 class="card-text text-center fw-bold text-nowrap">Coca cola Lata 350ml</h3>
+  </div>
+  </div>
+  </div>
+<div class="col-12 col-md-6 col-lg-4">
+  <div class="card mx-auto btn" data-bs-toggle="modal" data-bs-target="#modal-65" style="width: 18rem;">
+  <img src="assets/coca-zero.webp" class="card-img-top img-fluid img-responsive" alt="refrigerante de cola" title="coca cola zero">
+<div class="card-body">
+  <h3 class="card-text text-center fw-bold text-nowrap">Coca cola zero Lata 350ml</h3>
+  </div>
+  </div>
+  </div>
+<div class="col-12 col-md-6 col-lg-4">
+  <div class="card mx-auto btn" data-bs-toggle="modal" data-bs-target="#modal-66" style="width: 18rem;">
+<img src="assets/fanta-Laranja-350ml-.webp" class="card-img-top img-fluid img-responsive" alt="refrigerante de laranja" title="fanta laranja">
+<div class="card-body">
+  <h3 class="card-text text-center fw-bold text-nowrap">Fanta Larnja lata 350ml</h3>
+  </div>
+</div>
+  </div>
+<div class="col-12 col-md-6 col-lg-4">
+  <div class="card mx-auto btn" data-bs-toggle="modal" data-bs-target="#modal-67" style="width: 18rem;">
+  <img src="assets/guarana-lata.webp" class="card-img-top img-fluid img-responsive" alt="refrigerante de guarana" title="guarana antartica">
+<div class="card-body">
+  <h3 class="card-text text-center fw-bold text-nowrap">Guarana Antartica lata 350ml</h3>
+</div>
+  </div>
+</div>
+<div class="col-12 col-md-6 col-lg-4">
+  <div class="card mx-auto btn" data-bs-toggle="modal" data-bs-target="#modal-68" style="width: 18rem;">
+<img src="assets/cerveja-spaten-lata.webp" class="card-img-top img-fluid img-responsive" alt="cerveja puro malte" title="cerveja spatem">
+<div class="card-body">
+  <h3 class="card-text text-center fw-bold text-nowrap">Cerveja Spatem lata 350ml</h3>
+  </div>
+</div>
+  </div>
+<div class="col-12 col-md-6 col-lg-4">
+  <div class="card mx-auto btn" data-bs-toggle="modal" data-bs-target="#modal-69" style="width: 18rem;">
+  <img src="assets/cerveja-brahma-lata.webp" class="card-img-top img-fluid img-responsive" alt="cerveja puro malte" title="cerveja brahma">
+  <div class="card-body">
+  <h3 class="card-text text-center fw-bold text-nowrap">Cerveja brahma lata 350ml</h3>
+</div>
+  </div>
+</div>
+  <div class="col-12 col-md-6 col-lg-4">
+<div class="card mx-auto btn" data-bs-toggle="modal" data-bs-target="#modal-70" style="width: 18rem;">
+  <img src="assets/cerveja-skol-350.webp" class="card-img-top img-fluid img-responsive" alt="cerveja original" title="cerveja skol">
+<div class="card-body">
+  <h3 class="card-text text-center fw-bold text-nowrap">Cerveja skol lata 350ml</h3>
+  </div>
+  </div>
+</div>
+<div class="col-12 col-md-6 col-lg-4">
+  <div class="card mx-auto btn" data-bs-toggle="modal" data-bs-target="#modal-71"style="width: 18rem;">
+  <img src="assets/cerveja-heineken-lata.webp" class="card-img-top img-fluid img-responsive" alt="cerveja heineken" title="cerveja heiniken">
+<div class="card-body">
+  <h3 class="card-text text-center fw-bold text-nowrap">Cerveja heineken lata 350ml</h3>
+</div>
+  </div>
+  </div>
+  <div class="col-12 col-md-6 col-lg-4">
+  <div class="card mx-auto btn" data-bs-toggle="modal" data-bs-target="#modal-72"
+style="width: 18rem;">
+  <img src="assets/shop-vinho.webp" class="card-img-top img-fluid img-responsive" alt="shop de vinho" title="draft">
+<div class="card-body">
+  <h3 class="card-text text-center fw-bold text-nowrap">Shop de vinho draft</h3>
+  </div>
+  </div>
+</div>
+<div class="col-12 col-md-6 col-lg-4">
+<div class="card mx-auto btn" data-bs-toggle="modal" data-bs-target="#modal-73" style="width: 18rem;">
+<img src="assets/schweps-citrus-lata-.webp" class="card-img-top img-fluid img-responsive" alt="refrigerante citrico" title="schweppes">
+<div class="card-body">
+    <h3 class="card-text text-center fw-bold text-nowrap">schweppes</h3>
+  </div>
+  </div>
+  </div>
+  <div class="col-12 col-md-6 col-lg-4">
+    <div class="card mx-auto btn" data-bs-toggle="modal" data-bs-target="#modal-74" style="width: 18rem;">
+    <img src="assets/del-vale-uva.webp" class="card-img-top img-fluid img-responsive" alt="suco de uva" title="del valle uva">
+    <div class="card-body">
+        <h3 class="card-text text-center fw-bold text-nowrap">del valle de uva</h3>
+      </div>
+      </div>
+      </div>
+<div class="col-12 col-md-6 col-lg-4">
+  <div class="card mx-auto btn" data-bs-toggle="modal" data-bs-target="#modal-75" style="width: 18rem;">
+  <img src="assets/de-valle-pessego.webp" class="card-img-top img-fluid img-responsive" alt="suco de pessego" title="del vale pessego">
+<div class="card-body">
+  <h3 class="card-text text-center fw-bold text-nowrap">del valle de pessêgo</h3>
+  </div>
+  </div>
+  </div>
+<div class="col-12 col-md-6 col-lg-4">
+  <div class="card mx-auto btn" data-bs-toggle="modal" data-bs-target="#modal-76" style="width: 18rem;">
+  <img src="assets/del-valle-manga.webp" class="card-img-top img-fluid img-responsive" alt="suco de manga" title="del vale manga">
+<div class="card-body">
+  <h3 class="card-text text-center fw-bold text-nowrap">del valle de manga</h3>
+  </div>
+  </div>
+</div>
+<div class="col-12 col-md-6 col-lg-4">
+  <div class="card mx-auto btn" data-bs-toggle="modal" data-bs-target="#modal-77" style="width: 18rem;">
+  <img src="assets/del-valle-maracuja.webp" class="card-img-top img-fluid img-responsive" alt="suco de maracuja" title="del vale maracuja">
+<div class="card-body">
+  <h3 class="card-text text-center fw-bold text-nowrap">del valle de maracuja</h3>
+  </div>
+  </div>
+</div>
+<div class="col-12 col-md-6 col-lg-4">
+  <div class="card mx-auto btn" data-bs-toggle="modal" data-bs-target="#modal-78" style="width: 18rem;">
+  <img src="assets/del-valle-goiaba.webp" class="card-img-top img-fluid img-responsive" alt="suco de goiaba" title="del vale goiaba">
+<div class="card-body">
+  <h3 class="card-text text-center fw-bold text-nowrap">del valle de goiaba</h3>
+  </div>
+  </div>
+</div>
+</section>
+      <section class="banners banner-3 d-flex flex-column justify-content-center text-center container-fluid" id="sobre">
+        <div>
+          <h2 class="fw-bold title-sobre">Sobre</h2>
+          <p class="paragraph-2">Fundada em 2019, a Dom Francesco nasceu do sonho de levar aos apaixonados por pizza uma experiência saborosa, acolhedora e inesquecível. Aqui, cada pizza é preparada com carinho, ingredientes selecionados e assada no tradicional forno a lenha, garantindo aquele sabor inconfundível que remete às boas memórias e aos momentos compartilhados em volta da mesa.</p>
+          <p class="paragraph-2">Somos uma pizzaria 100% brasileira, que valoriza a simplicidade e a excelência. Mais do que pizzas, oferecemos experiências — seja para celebrar com a família, reunir os amigos ou simplesmente matar aquela vontade de uma pizza quentinha e feita na hora Na Dom Francesco, cada fatia conta uma história. E a gente espera fazer parte da sua.
+          </p>
+        </div>
+      </section>
+      <section class="py-5">
+        <div class="row">
+          <div class="col-12 col-xl-12 mx-auto text-center">
+            <div class="border border-2 rounded p-3">
+              <div class="mt-6">
+                <h3 class="text-center main-title local">Nosso Local</h3>
+                <div class="row justify-content-center align-itens-center w-100">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <!-- Aqui vai o iframe do Google Maps -->
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3659.3173296227164!2d-46.7220997!3d-23.485077!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef9130e95a65f%3A0x5be296eab6481a42!2sRua%20Guerino%20Giovani%20Leardini%2C%20386%20-%20Vila%20Pirituba%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2002937-040!5e0!3m2!1spt-BR!2sbr!4v1746652696760!5m2!1spt-BR!2sbr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+      </section>
+    </main>
+    <!-- canvas 1 -->
+    <div class="offcanvas offcanvas-end card-back" tabindex="-1" id="canvas-1" aria-labelledby="offcanvasRightLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasRightLabel">Espaço Local</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close">
+        </button>
+      </div>
+      <div class="offcanvas-body">
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button botao-padrao" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Espaço local &nbsp;<i class="bi bi-chat-dots-fill"></i>
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <p>Temos um excelente espaço para alimentação e descanso, com geladeira refrigerantes, e sucos para você aproveitar o tempo com amigos e familiares.</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed botao-padrao" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Cardápio &nbsp;<i class="bi bi-book-fill"></i>
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+              <p>Além de pizzas, temos diversos lanches, e ótimas opçoes de sobremesas para você experimentar.</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed botao-padrao" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Coworking &nbsp;<i class="bi bi-bag-check-fill"></i>
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Temos espaço adequado para trabalho, com conexão de internet de alta velocidade e instalações confortáveis para reuniões.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  <!-- Canvas 2 -->
+  <div class="offcanvas offcanvas-end card-back-1" tabindex="-1" id="canvas-2" aria-labelledby="offcanvasRightLabel">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="offcanvasRightLabel">Buffet</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed botao-padrao text-center" type="button" data-bs-toggle="collapse"
+              data-bs-target="#accordionEventos" aria-expanded="false" aria-controls="collapseOne">
+              Eventos &nbsp;<i class="fa-solid fa-cake-candles"></i>
+            </button>
+          </h2>
+          <div id="accordionEventos" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Organizamos buffet com cardápios variados e personalizados para casamentos, festas de
+              aniversário e outros eventos!
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed botao-padrao text-center" type="button" data-bs-toggle="collapse"
+              data-bs-target="#accordionCatering" aria-expanded="false" aria-controls="collapseOne">
+              Catering &nbsp;<i class="fa-solid fa-mug-hot"></i>
+            </button>
+          </h2>
+          <div id="accordionCatering" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Oferecemos serviço de alimentação variada para coffee breaks, produções e bastidores.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+  <!-- Canvas 3 -->
+  <div class="offcanvas offcanvas-end card-back-2" tabindex="-1" id="canvas-3" aria-labelledby="offcanvasRightLabel">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="offcanvasRightLabel">Delivery</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed botao-padrao text-center" type="button" data-bs-toggle="collapse"
+              data-bs-target="#accordionEncomendas" aria-expanded="false" aria-controls="collapseOne">
+              Encomendas para Eventos &nbsp;<i class="fa-solid fa-cake-candles"></i>
+            </button>
+          </h2>
+          <div id="accordionEncomendas" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Produzimos e entregamos os itens de café de nosso cardápio em grandes quantidades para seus
+              eventos! Basta entrar em contato e fazer a reserva com 72h de antecedência.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed botao-padrao" type="button" data-bs-toggle="collapse"
+              data-bs-target="#accordionEntrega" aria-expanded="false" aria-controls="collapseOne">
+              Entrega por aplicativo &nbsp;<i class="fa-solid fa-mobile"></i>
+            </button>
+          </h2>
+          <div id="accordionEntrega" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Entregamos pelos aplicativos Ifood e Rappi. Consulte nosso cardápio por lá e faça seu
+              pedido!
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+  <div class="modal fade" id="modal-1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Pizza de Abobrinha</h2>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="assets/pizza-abobrinha.webp" class="w-100" alt="abobrinha temperada e mussarela" title="pizza-de-abobrinha" loading="lazy">
+          <p>Ingredientes: abobrinha temperada e mussarela.</p>
+          <p>Valor R$42,00</p>
+          <div class="price">
+            <button class="botao-padrao">comprar <i class="bi bi-bag-check-fill"></i></button>
+        </div>
+        </div>
+        <div class="modal-footer mx-auto">
+          <button type="button" class="btn btn-secondary botao-padrao border-0" data-bs-dismiss="modal">Fechar janela</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="modal-2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Pizza de Aliche</h2>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="assets/pizza-aliche.webp" class="w-100" alt="filé de aliche, tomate e parmesão" title="pizza de aliche" loading="lazy">
+          <p>Ingredientes: filé de aliche, tomate e parmesão.</p>
+            <p>Valor R$50,00</p>
+            <div class="price">
+            <button class="botao-padrao">comprar <i class="bi bi-bag-check-fill"></i></button>
+        </div>
+        </div>
+        <div class="modal-footer mx-auto">
+          <button type="button" class="btn btn-secondary botao-padrao border-0" data-bs-dismiss="modal">Fechar janela</button>
+        </div>
+      </div>
+    </div>
+  </div>
+<div class="modal fade" id="modal-3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Pizza de Alho Frito</h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="assets/pizza-alho-frito.webp" class="w-100" alt="mussarela e alho frito" title="pizza de alho" loading="lazy">
+        <p>Ingredinetes: mussarela e alho frito</p>
+        <p>Valor R$44,00</p>
+        <div class="price">
+          <button class="botao-padrao">comprar <i class="bi bi-bag-check-fill"></i></button>
+        </div>
+      </div>
+      <div class="modal-footer mx-auto">
+        <button type="button" class="btn btn-secondary botao-padrao border-0" data-bs-dismiss="modal">Fechar janela</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="modal-4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Pizza de Alho poró</h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="assets/pizza-alho-poro.webp" class="w-100" alt="pães" title="pães" loading="lazy">
+        <p>Ingredientes: alho poro refogado, cebola mussarela bakon</p>
+        <p>valor R$48,00</p>
+        <div class="price">
+          <button class="botao-padrao">comprar <i class="bi bi-bag-check-fill"></i></button>
+        </div>
+      </div>
+      <div class="modal-footer mx-auto">
+        <button type="button" class="btn btn-secondary botao-padrao border-0" data-bs-dismiss="modal">Fechar janela</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="modal-5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Pizza de Alcachofra</h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="assets/pizza-de-alcachofra.webp" class="w-100" alt="mussarela, coração de alcachofra" title="bolo de morango" loading="lazy">
+        <p>Ingredientes: mussarela, coração de alcachofra, palmito, champignon, catupiri e parmesão.</p>
+        <p>Valor R$54,00</p>
+        <div class="price">
+          <button class="botao-padrao">comprar <i class="bi bi-bag-check-fill"></i></button>
+        </div>
+      </div>
+      <div class="modal-footer mx-auto">
+        <button type="button" class="btn btn-secondary botao-padrao border-0" data-bs-dismiss="modal">Fechar janela</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="modal-6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Pizza de Atum</h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="assets/pizza-de-atum.webp" class="w-100" alt="atum em pedaços e cebola" title="pizza de atum" loading="lazy">
+        <p>Ingredientes: atum em pedaços e cebola</p>
+        <p>Valor R$50,00</p>
+        <div class="price">
+          <button class="botao-padrao">comprar <i class="bi bi-bag-check-fill"></i></button>
+        </div>
+      </div>
+      <div class="modal-footer mx-auto">
+        <button type="button" class="btn btn-secondary botao-padrao border-0" data-bs-dismiss="modal">Fechar janela</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="modal-7" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Red Bull</h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="assets/red-bull.webp" class="w-100" alt="salgados" title="salgados" loading="lazy">
+        <p>Temos várias bebidas energéticas, assim como red bull te dá asas!</p>
+        <p>Valor R$ 8,00</p>
+        <div class="price">
+          <button class="botao-padrao">comprar <i class="bi bi-bag-check-fill"></i></button>
+        </div>
+      </div>
+      <div class="modal-footer mx-auto">
+        <button type="button" class="btn btn-secondary botao-padrao border-0" data-bs-dismiss="modal">Fechar janela</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="modal-8" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Pizza de bacon</h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="assets/pizza-de-bacon.webp" class="w-100" alt="bacon e mussarela" title="pizza de bacon" loading="lazy">
+        <p>Ingredientes:mussarela e bacon</p>
+        <p>Valor R$46,00</p>
+        <div class="price">
+          <button class="botao-padrao">comprar <i class="bi bi-bag-check-fill"></i></button>
+        </div>
+      </div>
+      <div class="modal-footer mx-auto">
+        <button type="button" class="btn btn-secondary botao-padrao border-0" data-bs-dismiss="modal">Fechar janela</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="modal-9" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Pizza de Bauru</h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="assets/pizza-de-bauru.webp" class="w-100" alt="presunto, mussarela e tomate" title="pizza de bauru" loading="lazy">
+        <p>Ingredientes: presunto, mussarela e tomate</p>
+        <p>Valor R$46,00</p>
+        <div class="price">
+          <button class="botao-padrao">comprar <i class="bi bi-bag-check-fill"></i></button>
+        </div>
+      </div>
+      <div class="modal-footer mx-auto">
+        <button type="button" class="btn btn-secondary botao-padrao border-0" data-bs-dismiss="modal">Fechar janela</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="modal-10" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Pizza de Beringela</h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="assets/pizza-de-berinjela.webp" class="w-100" alt="beringela refogada e mussarela" title="pizza de beringela" loading="lazy">
+        <p>Ingredientes:beringela refogada e mussarela</p>
+        <p>Valor R$42,00</p>
+        <div class="price">
+          <button class="botao-padrao">comprar <i class="bi bi-bag-check-fill"></i></button>
+        </div>
+      </div>
+      <div class="modal-footer mx-auto">
+        <button type="button" class="btn btn-secondary botao-padrao border-0" data-bs-dismiss="modal">Fechar janela</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="modal-11" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Pizza Brasileira</h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="assets/pizza-brasileira.webp" class="w-100" alt="atum em pedaços, palmito e champignon" title="pizza brasileira" loading="lazy">
+        <p>Ingredientes:atum em pedaços, palmito e champignon</p>
+        <p>Valor R$52,00</p>
+        <div class="price">
+          <button class="botao-padrao">comprar <i class="bi bi-bag-check-fill"></i></button>
+        </div>
+      </div>
+      <div class="modal-footer mx-auto">
+        <button type="button" class="btn btn-secondary botao-padrao border-0" data-bs-dismiss="modal">Fechar janela</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="modal-12" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Pizza de Brócolis</h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="assets/Pizza-de-brocolis-com-bacon.webp" class="w-100" alt="Brócolis temperado, mussarela e bacon" title="pizza brasileira" loading="lazy">
+        <p>Ingredientes:Brócolis temperado, mussarela e bacon</p>
+        <p>Valor R$50,00</p>
+        <div class="price">
+          <button class="botao-padrao">comprar <i class="bi bi-bag-check-fill"></i></button>
+        </div>
+      </div>
+      <div class="modal-footer mx-auto">
+        <button type="button" class="btn btn-secondary botao-padrao border-0" data-bs-dismiss="modal">Fechar janela</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="modal-13" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Pizza de Brócolis 1</h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="assets/pizza-de-brocolis-1.webp" class="w-100" alt="brocolis, palmito, mussarela, champignon" title="pizza de brocolis" loading="lazy">
+        <p>Ingredientes:Brócolis, palmito, mussarela, catupiri e parmesão</p>
+        <p>Valor R$50,00</p>
+        <div class="price">
+          <button class="botao-padrao">comprar <i class="bi bi-bag-check-fill"></i></button>
+        </div>
+      </div>
+      <div class="modal-footer mx-auto">
+        <button type="button" class="btn btn-secondary botao-padrao border-0" data-bs-dismiss="modal">Fechar janela</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="modal-14" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Pizza capira</h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="assets/pizza-caipira.webp" class="w-100" alt="frango temperado, milho e catupiri" title="pizza caipira" loading="lazy">
+        <p>Ingredientes:frango temperado, milho e catupiri</p>
+        <p>Valor R$50,00</p>
+        <div class="price">
+          <button class="botao-padrao">comprar <i class="bi bi-bag-check-fill"></i></button>
+        </div>
+      </div>
+      <div class="modal-footer mx-auto">
+        <button type="button" class="btn btn-secondary botao-padrao border-0" data-bs-dismiss="modal">Fechar janela</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="modal-15" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Pizza de calabresa</h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="assets/pizza-calabresa.webp" class="w-100" alt="calabresa fatiada e cebola" title="pizza de calabresa" loading="lazy">
+        <p>Ingredientes:calabresa fatiada e cebola</p>
+        <p>Valor R$42,00</p>
+        <div class="price">
+          <button class="botao-padrao">comprar <i class="bi bi-bag-check-fill"></i></button>
+        </div>
+      </div>
+      <div class="modal-footer mx-auto">
+        <button type="button" class="btn btn-secondary botao-padrao border-0" data-bs-dismiss="modal">Fechar janela</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="modal-16" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Pizza de calamussa</h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="assets/pizza-de-calamussa.webp" class="w-100" alt="calabresa fatiada, cebola e mussarela" title="pizza de calamussa" loading="lazy">
+        <p>Ingredientes:calabresa fatiada, cebola e mussarela</p>
+        <p>Valor R$46,00</p>
+        <div class="price">
+          <button class="botao-padrao">comprar <i class="bi bi-bag-check-fill"></i></button>
+        </div>
+      </div>
+      <div class="modal-footer mx-auto">
+        <button type="button" class="btn btn-secondary botao-padrao border-0" data-bs-dismiss="modal">Fechar janela</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="modal-17" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Pizza de camarão</h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="assets/pizza-de-camarao.webp" class="w-100" alt="camarao temperado catupiri ou mussarela" title="pizza de caramao" loading="lazy">
+        <p>Ingredientes:camarao temperado catupiri ou mussarela</p>
+        <p>Valor R$70,00</p>
+        <div class="price">
+          <button class="botao-padrao">comprar <i class="bi bi-bag-check-fill"></i></button>
+        </div>
+      </div>
+      <div class="modal-footer mx-auto">
+        <button type="button" class="btn btn-secondary botao-padrao border-0" data-bs-dismiss="modal">Fechar janela</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="modal-18" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Pizza de carne seca</h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="assets/pizza-de-carne-seca.webp" class="w-100" alt="mussrela, ovos, carne seca temperada" title="pizza de carne seca" loading="lazy">
+        <p>Ingredientes:mussrela, ovos, carne seca temperada</p>
+        <p>Valor R$70,00</p>
+        <div class="price">
+          <button class="botao-padrao">comprar <i class="bi bi-bag-check-fill"></i></button>
+        </div>
+      </div>
+      <div class="modal-footer mx-auto">
+        <button type="button" class="btn btn-secondary botao-padrao border-0" data-bs-dismiss="modal">Fechar janela</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="modal-19" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Pizza de cinco queijos</h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="assets/pizza-cinco-queijos.webp" class="w-100" alt="mussarela, catupiri, provolone, parmesão e gorgonzola" title="pizza de cinco queijos" loading="lazy">
+        <p>Ingredientes:mussarela, catupiri, provolone, parmesão e gorgonzola</p>
+        <p>Valor R$55,00</p>
+        <div class="price">
+          <button class="botao-padrao">comprar <i class="bi bi-bag-check-fill"></i></button>
+        </div>
+      </div>
+      <div class="modal-footer mx-auto">
+        <button type="button" class="btn btn-secondary botao-padrao border-0" data-bs-dismiss="modal">Fechar janela</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="modal-20" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Pizza colonial</h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="assets/pizza-colonial.webp" class="w-100" alt="mussarela, pernil, cebola, catupiri, e alho poro" title="pizza colonial" loading="lazy">
+        <p>Ingredientes:mussarela, pernil, cebola, catupiri, e alho poro</p>
+        <p>Valor R$50,00</p>
+        <div class="price">
+          <button class="botao-padrao">comprar <i class="bi bi-bag-check-fill"></i></button>
+        </div>
+      </div>
+      <div class="modal-footer mx-auto">
+        <button type="button" class="btn btn-secondary botao-padrao border-0" data-bs-dismiss="modal">Fechar janela</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="modal-21" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Pizza de cream cheese</h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="assets/pizza-de-cream-cheese-1.webp" class="w-100" alt="peitu de peru, ovos, cebola, e cream cheese" title="pizza de cream cheese" loading="lazy">
+        <p>Ingredientes:peitu de peru, ovos, cebola, e cream cheese</p>
+        <p>Valor R$50,00</p>
+        <div class="price">
+          <button class="botao-padrao">comprar <i class="bi bi-bag-check-fill"></i></button>
+        </div>
+      </div>
+      <div class="modal-footer mx-auto">
+        <button type="button" class="btn btn-secondary botao-padrao border-0" data-bs-dismiss="modal">Fechar janela</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="modal-22" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Pizza de cream cheese</h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="assets/pizza-de-cream-cheese.webp" class="w-100" alt="peitu de peru, ovos, cebola, e cream cheese" title="pizza de cream cheese" loading="lazy">
+        <p>Ingredientes:peitu de peru, ovos, cebola, e cream cheese</p>
+        <p>Valor R$52,00</p>
+        <div class="price">
+          <button class="botao-padrao">comprar <i class="bi bi-bag-check-fill"></i></button>
+        </div>
+      </div>
+      <div class="modal-footer mx-auto">
+        <button type="button" class="btn btn-secondary botao-padrao border-0" data-bs-dismiss="modal">Fechar janela</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="modal-23" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Pizza crocante</h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="assets/pizza-crocante.webp" class="w-100" alt="frango temperado, catupiry, e batata palha" title="pizza crocante" loading="lazy">
+        <p>Ingredientes:peitu de peru, ovos, cebola, e cream cheese</p>
+        <p>Valor R$52,00</p>
+        <div class="price">
+          <button class="botao-padrao">comprar <i class="bi bi-bag-check-fill"></i></button>
+        </div>
+      </div>
+      <div class="modal-footer mx-auto">
+        <button type="button" class="btn btn-secondary botao-padrao border-0" data-bs-dismiss="modal">Fechar janela</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="modal-24" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Pizza de dois queijos</h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="assets/pizza-dois-queijos.webp" class="w-100" alt="mussarela e catupiry" title="pizza de dois queijos" loading="lazy">
+        <p>Ingredientes:mussarela e catupiry</p>
+        <p>Valor R$45,00</p>
+        <div class="price">
+          <button class="botao-padrao">comprar <i class="bi bi-bag-check-fill"></i></button>
+        </div>
+      </div>
+      <div class="modal-footer mx-auto">
+        <button type="button" class="btn btn-secondary botao-padrao border-0" data-bs-dismiss="modal">Fechar janela</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="modal-25" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Pizza don francesco</h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="assets/pizza-don-francesco.webp" class="w-100" alt="atum em pedaços, cebola, catupiri, mussarela, e bacon" title="pizza don francesco" loading="lazy">
+        <p>Ingredientes:atum em pedaços, cebola, catupiri, mussarela, e bacon</p>
+        <p>Valor R$55,00</p>
+        <div class="price">
+          <button class="botao-padrao">comprar <i class="bi bi-bag-check-fill"></i></button>
+        </div>
+      </div>
+      <div class="modal-footer mx-auto">
+        <button type="button" class="btn btn-secondary botao-padrao border-0" data-bs-dismiss="modal">Fechar janela</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="modal-26" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Pizza de escarola</h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="assets/pizza-escarola.webp" class="w-100" alt="escarola refogada, mussarela, e bacon" title="pizza de escarola" loading="lazy">
+        <p>Ingredientes:escarola refogada, mussarela, e bacon</p>
+        <p>Valor R$42,00</p>
+        <div class="price">
+          <button class="botao-padrao">comprar <i class="bi bi-bag-check-fill"></i></button>
+        </div>
+      </div>
+      <div class="modal-footer mx-auto">
+        <button type="button" class="btn btn-secondary botao-padrao border-0" data-bs-dismiss="modal">Fechar janela</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="modal-27" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Pizza de filé mingon</h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="assets/pizza-de-file-mingon.webp" class="w-100" alt="mussarela, tiras de filé mingon, catupiri, e alho frito" title="pizza de escarola" loading="lazy">
+        <p>Ingredientes:mussarela, tiras de filé mingon, catupiri, e alho frito</p>
+        <p>Valor R$62,00</p>
+        <div class="price">
+          <button class="botao-padrao">comprar <i class="bi bi-bag-check-fill"></i></button>
+        </div>
+      </div>
+      <div class="modal-footer mx-auto">
+        <button type="button" class="btn btn-secondary botao-padrao border-0" data-bs-dismiss="modal">Fechar janela</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="modal-28" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Pizza de frango com catupiry</h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="assets/pizza-de-frango-com-catupiry.webp" class="w-100" alt="fango temperado e catupiri" title="pizza de frango com catupiri" loading="lazy">
+        <p>Ingredientes:fango temperado e catupiri</p>
+        <p>Valor R$48,00</p>
+        <div class="price">
+          <button class="botao-padrao">comprar <i class="bi bi-bag-check-fill"></i></button>
+        </div>
+      </div>
+      <div class="modal-footer mx-auto">
+        <button type="button" class="btn btn-secondary botao-padrao border-0" data-bs-dismiss="modal">Fechar janela</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="modal-29" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Pizza de hot dog</h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="assets/pizza-hot-dog.webp" class="w-100" alt="mussarela, salsicha, milho, ervilha, catupiry, cheddar, e batata palha" title="pizza de hot dog" loading="lazy">
+        <p>Ingredientes:fango temperado e catupiri</p>
+        <p>Valor R$48,00</p>
+        <div class="price">
+          <button class="botao-padrao">comprar <i class="bi bi-bag-check-fill"></i></button>
+        </div>
+      </div>
+      <div class="modal-footer mx-auto">
+        <button type="button" class="btn btn-secondary botao-padrao border-0" data-bs-dismiss="modal">Fechar janela</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="modal-30" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Pizza de lombo</h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="assets/pizza-de-lombo.webp" class="w-100" alt="lombo, cebola, mussarela, catupiri, e bacon" title="pizza de lombo" loading="lazy">
+        <p>Ingredientes:lombo, cebola, mussarela, catupiri, e bacon</p>
+        <p>Valor R$50,00</p>
+        <div class="price">
+          <button class="botao-padrao">comprar <i class="bi bi-bag-check-fill"></i></button>
+        </div>
+      </div>
+      <div class="modal-footer mx-auto">
+        <button type="button" class="btn btn-secondary botao-padrao border-0" data-bs-dismiss="modal">Fechar janela</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="modal-31" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Pizza de marguerita</h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="assets/pizza-marguerita.webp" class="w-100" alt="mussarela, manjericao, tomate, e parmesao" title="pizza de marguerita" loading="lazy">
+        <p>Ingredientes:mussarela, manjericao, tomate, e parmesão</p>
+        <p>Valor R$46,00</p>
+        <div class="price">
+          <button class="botao-padrao">comprar <i class="bi bi-bag-check-fill"></i></button>
+        </div>
+      </div>
+      <div class="modal-footer mx-auto">
+        <button type="button" class="btn btn-secondary botao-padrao border-0" data-bs-dismiss="modal">Fechar janela</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="modal-32" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Pizza de milho verde</h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="assets/pizza-milho-verde.webp" class="w-100" alt="milho verde, catupiry ou mussarela" title="pizza de milho verde" loading="lazy">
+        <p>Ingredientes:milho verde, catupiry ou mussarela</p>
+        <p>Valor R$46,00</p>
+        <div class="price">
+          <button class="botao-padrao">comprar <i class="bi bi-bag-check-fill"></i></button>
+        </div>
+      </div>
+      <div class="modal-footer mx-auto">
+        <button type="button" class="btn btn-secondary botao-padrao border-0" data-bs-dismiss="modal">Fechar janela</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="modal-33" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Pizza a moda da casa</h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="assets/pizza-da-casa.webp" class="w-100" alt="frango temperado, palmito, champignon, ervilha, ovos, bacon, e mussarela" title="pizza a moda da casa" loading="lazy">
+        <p>Ingredientes:frango temperado, palmito, champignon, ervilha, ovos, bacon, e mussarela</p>
+        <p>Valor R$50,00</p>
+        <div class="price">
+          <button class="botao-padrao">comprar <i class="bi bi-bag-check-fill"></i></button>
+        </div>
+      </div>
+      <div class="modal-footer mx-auto">
+        <button type="button" class="btn btn-secondary botao-padrao border-0" data-bs-dismiss="modal">Fechar janela</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="modal-34" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Pizza de mussarela</h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="assets/pizza-de-mussarela.webp" class="w-100" alt="mussarela e tomate" title="pizza de mussarela" loading="lazy">
+        <p>Ingredientes:mussarela e tomate</p>
+        <p>Valor R$42,00</p>
+        <div class="price">
+          <button class="botao-padrao">comprar <i class="bi bi-bag-check-fill"></i></button>
+        </div>
+      </div>
+      <div class="modal-footer mx-auto">
+        <button type="button" class="btn btn-secondary botao-padrao border-0" data-bs-dismiss="modal">Fechar janela</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="modal-35" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Pizza napolitana</h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="assets/pizza-napoliana.webp" class="w-100" alt="mussrela, tomate, e parmesao" title="pizza napolitana" loading="lazy">
+        <p>Ingredientes:mussrela, tomate, e parmesão</p>
+        <p>Valor R$46,00</p>
+        <div class="price">
+          <button class="botao-padrao">comprar <i class="bi bi-bag-check-fill"></i></button>
+        </div>
+      </div>
+      <div class="modal-footer mx-auto">
+        <button type="button" class="btn btn-secondary botao-padrao border-0" data-bs-dismiss="modal">Fechar janela</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="modal-36" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Pizza de palmito</h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="assets/pizza-palmito.webp" class="w-100" alt="palmito e mussarela" title="pizza de palmito" loading="lazy">
+        <p>Ingredientes:palmito e mussarela</p>
+        <p>Valor R$46,00</p>
+        <div class="price">
+          <button class="botao-padrao">comprar <i class="bi bi-bag-check-fill"></i></button>
+        </div>
+      </div>
+      <div class="modal-footer mx-auto">
+        <button type="button" class="btn btn-secondary botao-padrao border-0" data-bs-dismiss="modal">Fechar janela</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="modal-37" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Pizza de peperoni</h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="assets/pizza-peperoni.webp" class="w-100" alt="mussarela e peperoni" title="pizza de peperoni" loading="lazy">
+        <p>Ingredientes:mussarela e peperoni</p>
+        <p>Valor R$50,00</p>
+        <div class="price">
+          <button class="botao-padrao">comprar <i class="bi bi-bag-check-fill"></i></button>
+        </div>
+      </div>
+      <div class="modal-footer mx-auto">
+        <button type="button" class="btn btn-secondary botao-padrao border-0" data-bs-dismiss="modal">Fechar janela</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="modal-38" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Pizza de pernil</h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="assets/pizza-pernil.webp" class="w-100" alt="pernil, ovos, mussarela, provolone, tomate, e bacon" title="pizza de pernil" loading="lazy">
+        <p>Ingredientes:pernil, ovos, mussarela, provolone, tomate, e bacon</p>
+        <p>Valor R$50,00</p>
+        <div class="price">
+          <button class="botao-padrao">comprar <i class="bi bi-bag-check-fill"></i></button>
+        </div>
+      </div>
+      <div class="modal-footer mx-auto">
+        <button type="button" class="btn btn-secondary botao-padrao border-0" data-bs-dismiss="modal">Fechar janela</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="modal-39" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Pizza de peru</h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="assets/pizza-peru.webp" class="w-100" alt="peitu de peru, cebola, mussarela, catupiri, e bacon" title="pizza de peru" loading="lazy">
+        <p>Ingredientes:peitu de peru, cebola, mussarela, catupiri, e bacon</p>
+        <p>Valor R$50,00</p>
+        <div class="price">
+          <button class="botao-padrao">comprar <i class="bi bi-bag-check-fill"></i></button>
+        </div>
+      </div>
+      <div class="modal-footer mx-auto">
+        <button type="button" class="btn btn-secondary botao-padrao border-0" data-bs-dismiss="modal">Fechar janela</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="modal-40" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Pizza portuguesa</h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="assets/pizza-portuguesa.webp" class="w-100" alt="presunto, ervilha, ovos, cebola, e mussarela" title="pizza portuguesa" loading="lazy">
+        <p>Ingredientes:presunto, ervilha, ovos, cebola, e mussarela</p>
+        <p>Valor R$46,00</p>
+        <div class="price">
+          <button class="botao-padrao">comprar <i class="bi bi-bag-check-fill"></i></button>
+        </div>
+      </div>
+      <div class="modal-footer mx-auto">
+        <button type="button" class="btn btn-secondary botao-padrao border-0" data-bs-dismiss="modal">Fechar janela</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="modal-41" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Pizza primavera</h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="assets/pizza-primavera.webp" class="w-100" alt="presunto, milho, mussarela, catupiri, parmesao, e bacon" title="pizza primavera" loading="lazy">
+        <p>Ingredientes:presunto, milho, mussarela, catupiri, parmesao, e bacon</p>
+        <p>Valor R$50,00</p>
+        <div class="price">
+          <button class="botao-padrao">comprar <i class="bi bi-bag-check-fill"></i></button>
+        </div>
+      </div>
+      <div class="modal-footer mx-auto">
+        <button type="button" class="btn btn-secondary botao-padrao border-0" data-bs-dismiss="modal">Fechar janela</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="modal-42" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Pizza de 4 queijos</h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="assets/pizza-4-queijos.webp" class="w-100" alt="mussarela, catupiri, provolone, e parmesao" title="pizza de 4 queijos" loading="lazy">
+        <p>Ingredientes:mussarela, catupiri, provolone, e parmesão</p>
+        <p>Valor R$52,00</p>
+        <div class="price">
+          <button class="botao-padrao">comprar <i class="bi bi-bag-check-fill"></i></button>
+        </div>
+      </div>
+      <div class="modal-footer mx-auto">
+        <button type="button" class="btn btn-secondary botao-padrao border-0" data-bs-dismiss="modal">Fechar janela</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="modal-43" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Pizza romana</h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="assets/pizza-romana.webp" class="w-100" alt="mussarela, aliche, tomate, e parmesao" title="pizza romana" loading="lazy">
+        <p>Ingredientes:mussarela, aliche, tomate, e parmesão</p>
+        <p>Valor R$50,00</p>
+        <div class="price">
+          <button class="botao-padrao">comprar <i class="bi bi-bag-check-fill"></i></button>
+        </div>
+      </div>
+      <div class="modal-footer mx-auto">
+        <button type="button" class="btn btn-secondary botao-padrao border-0" data-bs-dismiss="modal">Fechar janela</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="modal-44" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Pizza de rúcula</h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="assets/pizza-rucula.webp" class="w-100" alt="mussarela, rucula, e tomate seco" title="pizza de rucula" loading="lazy">
+        <p>Ingredientes:mussarela, rucula, e tomate seco</p>
+        <p>Valor R$50,00</p>
+        <div class="price">
+          <button class="botao-padrao">comprar <i class="bi bi-bag-check-fill"></i></button>
+        </div>
+      </div>
+      <div class="modal-footer mx-auto">
+        <button type="button" class="btn btn-secondary botao-padrao border-0" data-bs-dismiss="modal">Fechar janela</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="modal-45" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Pizza de rúcula especial</h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="assets/pizza-rucula-especial.webp" class="w-100" alt="mussarela de bufala, rucula, e tomate seco" title="pizza de rucula especial" loading="lazy">
+        <p>Ingredientes:mussarela de bufala, rucula, e tomate seco</p>
+        <p>Valor R$56,00</p>
+        <div class="price">
+          <button class="botao-padrao">comprar <i class="bi bi-bag-check-fill"></i></button>
+        </div>
+      </div>
+      <div class="modal-footer mx-auto">
+        <button type="button" class="btn btn-secondary botao-padrao border-0" data-bs-dismiss="modal">Fechar janela</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="modal-46" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Pizza siciliana</h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="assets/pizza-siciliana.webp" class="w-100" alt="champignon, mussarela, e bacon" title="pizza siciliana" loading="lazy">
+        <p>Ingredientes:champignon, mussarela, e bacon</p>
+        <p>Valor R$50,00</p>
+        <div class="price">
+          <button class="botao-padrao">comprar <i class="bi bi-bag-check-fill"></i></button>
+        </div>
+      </div>
+      <div class="modal-footer mx-auto">
+        <button type="button" class="btn btn-secondary botao-padrao border-0" data-bs-dismiss="modal">Fechar janela</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="modal-47" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Pizza toscana</h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="assets/pizza-toscana.webp" class="w-100" alt="calabresa moida, cebola, e mussarela" title="pizza toscana" loading="lazy">
+        <p>Ingredientes:calabresa moida, cebola, e mussarela</p>
+        <p>Valor R$44,00</p>
+        <div class="price">
+          <button class="botao-padrao">comprar <i class="bi bi-bag-check-fill"></i></button>
+        </div>
+      </div>
+      <div class="modal-footer mx-auto">
+        <button type="button" class="btn btn-secondary botao-padrao border-0" data-bs-dismiss="modal">Fechar janela</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="modal-48" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Pizza de 3 queijos</h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="assets/pizza-tres-queijos.webp" class="w-100" alt="mussarela, catupiri, e parmesao" title="pizza de 3 queijos" loading="lazy">
+        <p>Ingredientes:mussarela, catupiri, e parmesão</p>
+        <p>Valor R$50,00</p>
+        <div class="price">
+          <button class="botao-padrao">comprar <i class="bi bi-bag-check-fill"></i></button>
+        </div>
+      </div>
+      <div class="modal-footer mx-auto">
+        <button type="button" class="btn btn-secondary botao-padrao border-0" data-bs-dismiss="modal">Fechar janela</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="modal-49" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Pizza vegetariana</h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="assets/pizza-vegetariana.webp" class="w-100" alt="brocolis, coracao de alcachofra, palmito, ervilha, milho, champignon, mussarela, e catupiri" title="pizza vegetariana" loading="lazy">
+        <p>Ingredientes:brocolis, coracao de alcachofra, palmito, ervilha, milho, champignon, mussarela, e catupiri</p>
+        <p>Valor R$55,00</p>
+        <div class="price">
+          <button class="botao-padrao">comprar <i class="bi bi-bag-check-fill"></i></button>
+        </div>
+      </div>
+      <div class="modal-footer mx-auto">
+        <button type="button" class="btn btn-secondary botao-padrao border-0" data-bs-dismiss="modal">Fechar janela</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="modal-50" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Pizza de banana com canela</h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="assets/pizza-banana.webp" class="w-100" alt="banana, leite condensado, e canela" title="pizza de banana" loading="lazy">
+        <p>Ingredientes:banana, leite condensado, e canela</p>
+        <p>Valor R$40,00</p>
+        <div class="price">
+          <button class="botao-padrao">comprar <i class="bi bi-bag-check-fill"></i></button>
+        </div>
+      </div>
+      <div class="modal-footer mx-auto">
+        <button type="button" class="btn btn-secondary botao-padrao border-0" data-bs-dismiss="modal">Fechar janela</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="modal-51" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Pizza de biz</h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="assets/pizza-biz.webp" class="w-100" alt="chocolate ao leite e biz" title="pizza de biz" loading="lazy">
+        <p>Ingredientes:chocolate ao leite e biz</p>
+        <p>Valor R$40,00</p>
+        <div class="price">
+          <button class="botao-padrao">comprar <i class="bi bi-bag-check-fill"></i></button>
+        </div>
+      </div>
+      <div class="modal-footer mx-auto">
+        <button type="button" class="btn btn-secondary botao-padrao border-0" data-bs-dismiss="modal">Fechar janela</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="modal-52" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Pizza de brigadeiro</h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="assets/pizza-de-brigadeiro.webp" class="w-100" alt="chocolate ao leite e granulado" title="pizza de brigadeiro" loading="lazy">
+        <p>Ingredientes:chocolate ao leite e granulado</p>
+        <p>Valor R$40,00</p>
+        <div class="price">
+          <button class="botao-padrao">comprar <i class="bi bi-bag-check-fill"></i></button>
+        </div>
+      </div>
+      <div class="modal-footer mx-auto">
+        <button type="button" class="btn btn-secondary botao-padrao border-0" data-bs-dismiss="modal">Fechar janela</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="modal-53" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Pizza de confete</h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="assets/pizza-confete.webp" class="w-100" alt="chocolate ao leite e confetes" title="pizza de confete" loading="lazy">
+        <p>Ingredientes:chocolate ao leite e confetes coloridos</p>
+        <p>Valor R$40,00</p>
+        <div class="price">
+          <button class="botao-padrao">comprar <i class="bi bi-bag-check-fill"></i></button>
+        </div>
+      </div>
+      <div class="modal-footer mx-auto">
+        <button type="button" class="btn btn-secondary botao-padrao border-0" data-bs-dismiss="modal">Fechar janela</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="modal-54" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Pizza de chocolate com banana</h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="assets/pizza-chocolate-banana.webp" class="w-100" alt="chocolate ao leite, banana fatiada, e leite condensado" loading="lazy">
+        <p>Ingredientes:chocolate ao leite, banana fatiada, e leite condensado</p>
+        <p>Valor R$40,00</p>
+        <div class="price">
+          <button class="botao-padrao">comprar <i class="bi bi-bag-check-fill"></i></button>
+        </div>
+      </div>
+      <div class="modal-footer mx-auto">
+        <button type="button" class="btn btn-secondary botao-padrao border-0" data-bs-dismiss="modal">Fechar janela</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="modal-55" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Pizza de chocolate com morango</h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="assets/pizza-chocolate-morango.webp" class="w-100" alt="chocolate ao leite e morango" title="pizza de chocolate e morango" loading="lazy">
+        <p>Ingredientes:chocolate ao leite e morango</p>
+        <p>Valor R$40,00</p>
+        <div class="price">
+          <button class="botao-padrao">comprar <i class="bi bi-bag-check-fill"></i></button>
+        </div>
+      </div>
+      <div class="modal-footer mx-auto">
+        <button type="button" class="btn btn-secondary botao-padrao border-0" data-bs-dismiss="modal">Fechar janela</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="modal-56" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Pizza de nutella</h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="assets/pizza-nutella.webp" class="w-100" alt="nutella com ou morango ou banana ou confete" title="pizza de nutella">
+        <p>Ingredientes:nutella com ou morango ou banana ou confete</p>
+        <p>Valor R$40,00</p>
+        <div class="price">
+          <button class="botao-padrao">comprar <i class="bi bi-bag-check-fill"></i></button>
+        </div>
+      </div>
+      <div class="modal-footer mx-auto">
+        <button type="button" class="btn btn-secondary botao-padrao border-0" data-bs-dismiss="modal">Fechar janela</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="modal-57" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Pizza de prestígio</h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="assets/pizza-prestígio.webp" class="w-100" alt="chocolate ao leite e coco ralado" title="pizza de prestigio" loading="lazy">
+        <p>Ingredientes:chocolate ao leite e côco ralado</p>
+        <p>Valor R$40,00</p>
+        <div class="price">
+          <button class="botao-padrao">comprar <i class="bi bi-bag-check-fill"></i></button>
+        </div>
+      </div>
+      <div class="modal-footer mx-auto">
+        <button type="button" class="btn btn-secondary botao-padrao border-0" data-bs-dismiss="modal">Fechar janela</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="modal-58" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Pizza de romeu e julieta</h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="assets/pizza-romeu-e-julieta.webp" class="w-100" alt="goiabada e mussarela" title="pizza de romeu e julieta" loading="lazy">
+        <p>Ingredientes:goiabada e mussarela</p>
+        <p>Valor R$40,00</p>
+        <div class="price">
+          <button class="botao-padrao">comprar <i class="bi bi-bag-check-fill"></i></button>
+        </div>
+      </div>
+      <div class="modal-footer mx-auto">
+        <button type="button" class="btn btn-secondary botao-padrao border-0" data-bs-dismiss="modal">Fechar janela</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="modal-59" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Coca cola 2 Litros</h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="assets/coca.png" class="w-100" alt="coca-2l" title="coca-cola-2l" loading="lazy">
+        <p>Ingredientes:A Coca-Cola Original contém água gaseificada, açúcar, extrato de noz de cola, cafeína, corante caramelo, ácido fosfórico e aroma natural. A fórmula secreta da Coca-Cola é um dos maiores segredos comerciais do mundo.</p>
+        <p>Valor R$15,00</p>
+        <div class="price">
+          <button class="botao-padrao">comprar <i class="bi bi-bag-check-fill"></i></button>
+        </div>
+      </div>
+      <div class="modal-footer mx-auto">
+        <button type="button" class="btn btn-secondary botao-padrao border-0" data-bs-dismiss="modal">Fechar janela</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="modal-60" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Sprite 2 Litros</h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="assets/sprite-2-litros.webp" class="w-100" alt="refrigerante de limao" title="sprite 2l" loading="lazy">
+        <p>Ingredientes:Os ingredientes do Sprite, em geral, incluem água gaseificada, açúcar (ou edulcorantes artificiais em versões sem açúcar), suco de limão, aroma natural, conservantes (sorbato de potássio e benzoato de sódio), e acidulante (ácido cítrico).</p>
+        <p>Valor R$15,00</p>
+        <div class="price">
+          <button class="botao-padrao">comprar <i class="bi bi-bag-check-fill"></i></button>
+        </div>
+      </div>
+      <div class="modal-footer mx-auto">
+        <button type="button" class="btn btn-secondary botao-padrao border-0" data-bs-dismiss="modal">Fechar janela</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="modal-61" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Guarana antartica 2 litros</h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="assets/guarana.webp" class="w-100" alt="refigerante de guarana" title="guarana antartica" loading="lazy">
+        <p>Ingredientes:O Guaraná Antarctica contém água gaseificada, açúcar, extrato de guaraná, aromatizante, acidulante ácido cítrico, conservadores (benzoato de sódio e sorbato de potássio) e corante caramelo IV. A versão Zero Açúcar contém os mesmos ingredientes, mas substitui o açúcar por edulcorantes como aspartame e acessulfame de potássio.</p>
+        <p>Valor R$15,00</p>
+        <div class="price">
+          <button class="botao-padrao">comprar <i class="bi bi-bag-check-fill"></i></button>
+        </div>
+      </div>
+      <div class="modal-footer mx-auto">
+        <button type="button" class="btn btn-secondary botao-padrao border-0" data-bs-dismiss="modal">Fechar janela</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="modal-62" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Fanta uva 2 litros</h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="assets/fanta-uva.webp" class="w-100" alt="refigerante de uva" title="fanta uva" loading="lazy">
+        <p>Ingredientes:Água Gaseificada: É a base da bebida, que contém gás carbônico para dar a espuma e o sabor refrescante.
+          Açúcar: É o adoçante principal da Fanta Uva, responsável pelo sabor doce.
+          Sucos Concentrados: Contêm o suco natural de uva e limão, que fornecem o sabor característico.
+          Aroma Sintético: É um composto artificial que imita o aroma natural da uva.
+          Reguladores de Acidez: Ajudam a ajustar o nível de acidez da bebida, tornando-a mais equilibrada.
+          Conservantes: Prolongam a vida útil da bebida, evitando o crescimento de microrganismos.
+          Edulcorantes: São adoçantes artificiais que são usados em algumas versões da Fanta Uva para reduzir o teor de açúcar.
+          Corantes Artificiais: São utilizados para dar a cor característica à bebida.</p>
+        <p>Valor R$15,00</p>
+        <div class="price">
+          <button class="botao-padrao">comprar <i class="bi bi-bag-check-fill"></i></button>
+        </div>
+      </div>
+      <div class="modal-footer mx-auto">
+        <button type="button" class="btn btn-secondary botao-padrao border-0" data-bs-dismiss="modal">Fechar janela</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="modal-63" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Guarana antartica zero</h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="assets/Refrigerante-Guarana-Antarctica-Zero-2.webp" class="w-100" alt="refigerante de uva" title="guarana antartica zero" loading="lazy">
+        <p>Ingredientes:O Guaraná Antarctica Zero contém: água gaseificada, extrato de guaraná, aromatizante, acidulante ácido cítrico, conservador benzoato de sódio, corante caramelo IV e edulcorantes artificiais como aspartame e acesulfame de potássio. Não contém glúten.</p>
+        <p>Valor R$15,00</p>
+        <div class="price">
+          <button class="botao-padrao">comprar <i class="bi bi-bag-check-fill"></i></button>
+        </div>
+      </div>
+      <div class="modal-footer mx-auto">
+        <button type="button" class="btn btn-secondary botao-padrao border-0" data-bs-dismiss="modal">Fechar janela</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="modal-64" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Coca cola Lata 350</h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="assets/coca-cola-lata-350-ml-.webp" class="w-100" alt="refigerante de cola" title="coca cola 350ml lata" loading="lazy">
+        <p>Ingredientes:A Coca-Cola Original contém água gaseificada, açúcar, extrato de noz de cola, cafeína, corante caramelo, ácido fosfórico e aroma natural. A fórmula secreta da Coca-Cola é um dos maiores segredos comerciais do mundo.</p>
+        <p>Valor R$6,00</p>
+        <div class="price">
+          <button class="botao-padrao">comprar <i class="bi bi-bag-check-fill"></i></button>
+        </div>
+      </div>
+      <div class="modal-footer mx-auto">
+        <button type="button" class="btn btn-secondary botao-padrao border-0" data-bs-dismiss="modal">Fechar janela</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="modal-65" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Coca cola zero Lata 350</h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="assets/coca-zero.webp" class="w-100" alt="refigerante de cola" title="coca cola zero 350ml lata" loading="lazy">
+        <p>Ingredientes:A Coca-Cola Original contém água gaseificada, açúcar, extrato de noz de cola, cafeína, corante caramelo, ácido fosfórico e aroma natural. A fórmula secreta da Coca-Cola é um dos maiores segredos comerciais do mundo.</p>
+        <p>Valor R$6,00</p>
+        <div class="price">
+          <button class="botao-padrao">comprar <i class="bi bi-bag-check-fill"></i></button>
+        </div>
+      </div>
+      <div class="modal-footer mx-auto">
+        <button type="button" class="btn btn-secondary botao-padrao border-0" data-bs-dismiss="modal">Fechar janela</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="modal-66" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Fanta Laranja lata 350ml</h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="assets/fanta-Laranja-350ml-.webp" class="w-100" alt="refigerante de cola" title="coca cola zero 350ml lata" loading="lazy">
+        <p>Ingredientes:Água gaseificada: Base da bebida.Açúcar: Doce, embora existam versões zero açúcar.
+          Suco concentrado de laranja: A fonte do sabor laranja.Reguladores de acidez: Ajuda a ajustar o pH da bebida.
+          Aromatizantes: Melhora o sabor.Conservantes: Prolonga a vida útil do produto.
+          Corante artificial: Concede a cor laranja característica.</p>
+        <p>Valor R$6,00</p>
+        <div class="price">
+          <button class="botao-padrao">comprar <i class="bi bi-bag-check-fill"></i></button>
+        </div>
+      </div>
+      <div class="modal-footer mx-auto">
+        <button type="button" class="btn btn-secondary botao-padrao border-0" data-bs-dismiss="modal">Fechar janela</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="modal-67" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Guarana Antartica lata 350ml</h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="assets/guarana-lata.webp" class="w-100" alt="refigerante de guarana" title="guarana antartica lata 350ml" loading="lazy">
+        <p>Ingredientes:O Guaraná Antarctica contém água gaseificada, açúcar, extrato de guaraná, aromatizante, acidulante ácido cítrico, conservadores (benzoato de sódio e sorbato de potássio) e corante caramelo IV. A versão Zero Açúcar contém os mesmos ingredientes, mas substitui o açúcar por edulcorantes como aspartame e acessulfame de potássio.</p>
+        <p>Valor R$6,00</p>
+        <div class="price">
+          <button class="botao-padrao">comprar <i class="bi bi-bag-check-fill"></i></button>
+        </div>
+      </div>
+      <div class="modal-footer mx-auto">
+        <button type="button" class="btn btn-secondary botao-padrao border-0" data-bs-dismiss="modal">Fechar janela</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="modal-68" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Cerveja spaten puro malte lata 350ml</h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="assets/cerveja-spaten-lata.webp" class="w-100" alt="cerveja puro" title="cerveja spaten puro malte" loading="lazy">
+        <p>Ingredientes:A cerveja Spaten Puro Malte é feita com apenas três ingredientes: água, malte e lúpulo. Este é um exemplo da Lei da Pureza da Cerveja Alemã, que estabelece que a cerveja só pode ser feita com estes três ingredientes, além de levedura, que é um produto da fermentação.</p>
+        <p>Valor R$6,00</p>
+        <div class="price">
+          <button class="botao-padrao">comprar <i class="bi bi-bag-check-fill"></i></button>
+        </div>
+      </div>
+      <div class="modal-footer mx-auto">
+        <button type="button" class="btn btn-secondary botao-padrao border-0" data-bs-dismiss="modal">Fechar janela</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="modal-69" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Cerveja brahma puro malte lata 350ml</h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="assets/cerveja-brahma-lata.webp" class="w-100" alt="cerveja puro malte" title="cerveja brahma puro malte" loading="lazy">
+        <p>Ingredientes:A cerveja Brahma Puro Malte é feita com água, malte e lúpulo. Em termos gerais, a cerveja puro malte, como a Brahma, é produzida apenas com esses três ingredientes principais, seguindo a tradição da Lei da Pureza Alemã, que prevê a utilização de água, malte, lúpulo e leveduras na produção da cerveja.</p>
+        <p>Valor R$6,00</p>
+        <div class="price">
+          <button class="botao-padrao">comprar <i class="bi bi-bag-check-fill"></i></button>
+        </div>
+      </div>
+      <div class="modal-footer mx-auto">
+        <button type="button" class="btn btn-secondary botao-padrao border-0" data-bs-dismiss="modal">Fechar janela</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="modal-70" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Cerveja skol lata 350ml</h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="assets/cerveja-skol-350.webp" class="w-100" alt="cerveja original" title="cerveja skol" loading="lazy">
+        <p>Ingredientes:Água, malte, milho e lúpulo.</p>
+        <p>Valor R$6,00</p>
+        <div class="price">
+          <button class="botao-padrao">comprar <i class="bi bi-bag-check-fill"></i></button>
+        </div>
+      </div>
+      <div class="modal-footer mx-auto">
+        <button type="button" class="btn btn-secondary botao-padrao border-0" data-bs-dismiss="modal">Fechar janela</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="modal-71" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Cerveja heineken lata 269ml</h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="assets/cerveja-heineken-lata.webp" class="w-100" alt="cerveja heineken" title="cerveja heineken" loading="lazy">
+        <p>Ingredientes:A cerveja Heineken é feita com apenas três ingredientes principais: água, malte de cevada e lúpulo. A levedura "A", exclusiva da marca, é adicionada durante o processo de fermentação para dar à Heineken o seu sabor característico.</p>
+        <p>Valor R$6,00</p>
+        <div class="price">
+          <button class="botao-padrao">comprar <i class="bi bi-bag-check-fill"></i></button>
+        </div>
+      </div>
+      <div class="modal-footer mx-auto">
+        <button type="button" class="btn btn-secondary botao-padrao border-0" data-bs-dismiss="modal">Fechar janela</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="modal-72" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Shop de vinho</h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="assets/shop-vinho.webp" class="w-100" alt="shop de vinho" title="draft" loading="lazy">
+        <p>Ingredientes:Vinho tinto de mesa, chopp claro, açúcar, milho, ácido cítrico, conservante, gás carbônico, sorbato de potássio, corantes, albumina, ácido ascórbico, antioxidante, citrato de potássio, estabilizante, concentrado de maçã e água potável gaseificada.</p>
+        <p>Valor R$16,00</p>
+        <div class="price">
+          <button class="botao-padrao">comprar <i class="bi bi-bag-check-fill"></i></button>
+        </div>
+      </div>
+      <div class="modal-footer mx-auto">
+        <button type="button" class="btn btn-secondary botao-padrao border-0" data-bs-dismiss="modal">Fechar janela</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="modal-73" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">schweppes lata 350ml</h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="assets/schweps-citrus-lata-.webp" class="w-100" alt="refrigerante citrico" title="schweppes" loading="lazy">
+        <p>Ingredientes:Água gaseificada, açúcar, suco de maçã, grapefruit e laranja, aroma natural e corante artificial tartrazina.</p>
+        <p>Valor R$6,00</p>
+        <div class="price">
+          <button class="botao-padrao">comprar <i class="bi bi-bag-check-fill"></i></button>
+        </div>
+      </div>
+      <div class="modal-footer mx-auto">
+        <button type="button" class="btn btn-secondary botao-padrao border-0" data-bs-dismiss="modal">Fechar janela</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="modal-74" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">del valle de uva lata 290ml</h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="assets/del-vale-uva.webp" class="w-100" alt="suco de uva" title="del valle de uva" loading="lazy">
+        <p>Ingredientes:Água, açúcar, suco concentrado de uva, suco concentrado de maçã, vitamina c, aromatizante, regulador de acidez ácido cítrico e estabilizante goma xantana.</p>
+        <p>Valor R$6,00</p>
+        <div class="price">
+          <button class="botao-padrao">comprar <i class="bi bi-bag-check-fill"></i></button>
+        </div>
+      </div>
+      <div class="modal-footer mx-auto">
+        <button type="button" class="btn btn-secondary botao-padrao border-0" data-bs-dismiss="modal">Fechar janela</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="modal-75" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">del valle de pessêgo lata 290ml</h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="assets/de-valle-pessego.webp" class="w-100" alt="suco de pessego" title="del valle de pessego" loading="lazy">
+        <p>Ingredientes:Água, Polpa De Pêssego, Acidulante Ácido Cítrico, Aroma Natural, Espessante Goma Xantana, Antioxidante Ácido Ascórbico E Edulcorantes Artificiais Sucralose (9 Mg/100 Ml) E Acesulfame K (3 Mg/100 Ml).</p>
+        <p>Valor R$6,00</p>
+        <div class="price">
+          <button class="botao-padrao">comprar <i class="bi bi-bag-check-fill"></i></button>
+        </div>
+      </div>
+      <div class="modal-footer mx-auto">
+        <button type="button" class="btn btn-secondary botao-padrao border-0" data-bs-dismiss="modal">Fechar janela</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="modal-76" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">del valle de manga lata 290ml</h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="assets/del-valle-manga.webp" class="w-100" alt="suco de manga" title="del valle de manga" loading="lazy">
+        <p>Ingredientes:O néctar de manga Del Valle é feito com água, polpa de manga, suco concentrado de maçã, açúcar, vitamina C, reguladores de acidez, aromatizante e estabilizante. Alguns produtos também podem conter edulcorantes como sucralose e acesulfame de potássio.</p>
+        <p>Valor R$6,00</p>
+        <div class="price">
+          <button class="botao-padrao">comprar <i class="bi bi-bag-check-fill"></i></button>
+        </div>
+      </div>
+      <div class="modal-footer mx-auto">
+        <button type="button" class="btn btn-secondary botao-padrao border-0" data-bs-dismiss="modal">Fechar janela</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="modal-77" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">del valle de maracuja lata 290ml</h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="assets/del-valle-maracuja.webp" class="w-100" alt="suco de maracuja" title="del valle de maracuja" loading="lazy">
+        <p>Ingredientes:Água, Suco Reconstituído De Maracujá, Açúcar, Fósforo, Vitaminas C E A, Aroma Natural, Regulador De Acidez Ácido Cítrico E Estabilizante Goma Xantana.</p>
+        <p>Valor R$6,00</p>
+        <div class="price">
+          <button class="botao-padrao">comprar <i class="bi bi-bag-check-fill"></i></button>
+        </div>
+      </div>
+      <div class="modal-footer mx-auto">
+        <button type="button" class="btn btn-secondary botao-padrao border-0" data-bs-dismiss="modal">Fechar janela</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="modal-78" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">del valle de goiaba lata 290ml</h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="assets/del-valle-goiaba.webp" class="w-100" alt="suco de goiaba" title="del valle de goiaba" loading="lazy">
+        <p>Ingredientes:Água: Bebida diluente.
+          Polpa de goiaba: Fonte do sabor e da fruta.
+          Ácido ascórbico: Antioxidante que ajuda a preservar o sabor e a cor do produto.
+          Ácido cítrico: Regulador de acidez para um sabor mais agradável.
+          Aroma natural: Para intensificar o sabor da goiaba.
+          Edulcorantes (sucralose e acesulfame de potássio): Substitutos do açúcar para reduzir a quantidade de calorias</p>
+        <p>Valor R$6,00</p>
+        <div class="price">
+          <button class="botao-padrao">comprar <i class="bi bi-bag-check-fill"></i></button>
+        </div>
+      </div>
+      <div class="modal-footer mx-auto">
+        <button type="button" class="btn btn-secondary botao-padrao border-0" data-bs-dismiss="modal">Fechar janela</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!--footer-->
+<footer class="text-center" id="contato">
+  <section class="container p-4 pb-0">
+   <div class="icons">
+    <a href="https://wa.me/5555119869128?text=Ol%C3%A1%2C%20boa%20noite%2C%20gostaria%20de%20fazer%20um%20pedido%3F" target="_blank"><i class="bi bi-whatsapp btn"></i></a>
+    <a href="https://www.instagram.com/donfrancescopizzeria?igsh=MXUwZXE0dnlmZHk0bg==" target="_blank"><i class="bi bi-instagram btn"></i></a>
+    <a href="https://www.facebook.com/share/18uemB5pyJ/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+   </div>
+    <div class="p-3">
+      <p id="dataAtual">aqui vai a mensagem</p>
+    </div>
+  </section>
+</footer>
+</div>
+</div>
+</div>
+</section>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+    crossorigin="anonymous"></script>
+</body>
+</html>
