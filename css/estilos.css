@@ -2,7 +2,6 @@ body,html {
   --marrom-escuro: #816D4F;
   --marrom-claro: #B29463;
   overflow-x: hidden;
-  font-family: "Anton SC", sans-serif;
   scroll-behavior: smooth;
   scroll-padding-top: 8rem;
 }
@@ -115,11 +114,13 @@ span.navbar-toggler-icon {
   border-radius: 30px;
   color: #fff;
   text-decoration: none;
+  transition: all .2s ease-in-out;
 }
 .main-btn:hover {
   transition: all .2s ease-in-out;
   background-color: #8C5B3B;
   color: #fff;
+  border: solid 1px #bf9f6b;
 }
 .main-btn i {
   color: #fff;
@@ -148,25 +149,26 @@ padding-bottom: 50px;
   margin-top: 2rem;
   font-size: 40px;
   text-transform: capitalize;
-  text-shadow:2px 2px 2px #bf9f6b;
+  text-shadow:2px 2px 2px #D4AF37;
 }
 .title-servicos {
   font-family: "Great Vibes", cursive;
   font-size: 40px;
   text-transform: capitalize;
   margin-top: 2rem;
-  text-shadow:2px 2px 2px #bf9f6b;
+  text-shadow:2px 2px 2px #D4AF37;
 }
 .title-sobre{
   font-family: "Great Vibes", cursive;
   font-size: 40px;
   text-transform: capitalize;
   color: #fff;
+  text-shadow:2px 2px 2px #D4AF37;
 }
 .local{
   font-size: 40px;
   font-family: "Great Vibes", cursive;
-  text-shadow: 2px 2px 2px #bf9f6b;
+  text-shadow:2px 2px 2px #D4AF37;
   color: #333;
 }
 .modal-title{
@@ -190,6 +192,7 @@ input[type=checkbox] {
   border: solid 1.5px #7e5235;
   background: #7e5235;
   color: #fff;
+  box-shadow: 2px 2px 2px #D4AF37;
 }
 .card-title {
   color: #444;
