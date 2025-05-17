@@ -376,6 +376,7 @@ footer p {
   background: #fff;
   border: solid 3px #bf9f6b;
 }
+
 /* responsividade macbook */
 @media(max-width:1280px) {
   .title-1{
@@ -520,11 +521,15 @@ footer p {
   .title-sobre{
     margin-top: 40px;
   }
-  p.paragraph-2{
-    padding-bottom: 20px;
-    color: #fff;
-    font-size: 19px;
-  }
+  .paragraph-2{
+  font-family: "Barlow", sans-serif;
+  color: #fff;
+  text-align: left;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 18px;
+  text-shadow: 1px 1px 1px #00000080;
+}
   .frase p{
   font-family: "Great Vibes", cursive;
   font-size: 15px;
