@@ -365,7 +365,7 @@ form {
   margin-top: 40px;
 }
 footer {
-  background-color:#231E23;
+  background-color:#000;
   color: #fff;
 }
 footer p {
@@ -527,7 +527,7 @@ footer p {
   text-align: left;
   margin-left: 20px;
   margin-right: 20px;
-  font-size: 18px;
+  font-size: 17px;
   text-shadow: 1px 1px 1px #00000080;
 }
   .frase p{
