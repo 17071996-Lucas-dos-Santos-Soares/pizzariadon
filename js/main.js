@@ -10,7 +10,7 @@ function atualizarData() {
     let mes = data.getMonth() + 1
     let ano = data.getFullYear()
     let dataFormatada = `${dia}/${mes}/${ano}`
-    document.getElementById('dataAtual').innerHTML = `&copy; Desenvolvido por Lucas Soares ${dataFormatada}`
+    document.getElementById('dataAtual').innerHTML = `&copy; Todos os direitos á pizzaria Don Francesco ${dataFormatada}`
 }
 window.onload = function() {
     atualizarData()
