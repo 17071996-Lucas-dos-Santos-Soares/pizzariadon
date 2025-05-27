@@ -76,8 +76,9 @@
             <div class="banners-titulo py-5">
           <h2 class="fw-bold title-1 animate-title1 text-left">Boas-vindas a pizzaria Don Francesco</h2>
           <p class="paragraph1 text-left animate-paragraph1">Descubra uma explosão de sabor!</p>
-          <button class="main-btn animate-main-btn" title="saiba-mais">
-            <a href="https://wa.me/5555119869128?text=Ol%C3%A1%2C%20boa%20noite%2C%20gostaria%20de%20fazer%20um%20pedido%3F" target="_blank">saiba mais<i class="bi bi-whatsapp btn"></i>
+          <button class="main-btn animate-main-btn" title="saiba-mais" id="date-button">
+            <a href="https://wa.me/5555119869128?text=Ol%C3%A1%2C%20boa%20noite%2C%20gostaria%20de%20fazer%20um%20pedido%3F" target="_blank">saiba mais
+              <i class="bi bi-whatsapp btn"></i>
             </a>
           </button>
         </div>
@@ -1007,7 +1008,7 @@ style="width: 18rem;">
           <p>Ingredientes: abobrinha temperada e mussarela.</p>
           <p>Valor R$42,00</p>
           <div class="price">
-            <button class="botao-padrao">comprar <i class="bi bi-bag-check-fill"></i></button>
+            <button class="botao-padrao add-to-cart" data-name="pizza de abobrinha" data-price="R$42,00">adicionar <i class="bi bi-cart-plus-fill"></i></button>
         </div>
         </div>
       </div>
@@ -1025,7 +1026,7 @@ style="width: 18rem;">
           <p>Ingredientes: filé de aliche, tomate e parmesão.</p>
             <p>Valor R$50,00</p>
             <div class="price">
-            <button class="botao-padrao">comprar <i class="bi bi-bag-check-fill"></i></button>
+            <button class="botao-padrao add-to-cart" data-name="pizza de aliche" data-price="R$50,00">adicionar <i class="bi bi-cart-plus-fill"></i></button>
         </div>
         </div>
       </div>
@@ -1043,7 +1044,7 @@ style="width: 18rem;">
         <p>Ingredinetes: mussarela e alho frito</p>
         <p>Valor R$44,00</p>
         <div class="price">
-          <button class="botao-padrao">comprar <i class="bi bi-bag-check-fill"></i></button>
+          <button class="botao-padrao add-to-cart" data-name="pizza de alho frito" data-price="R$44,00">adicionar <i class="bi bi-cart-plus-fill"></i></button>
         </div>
       </div>
     </div>
@@ -1061,7 +1062,7 @@ style="width: 18rem;">
         <p>Ingredientes: alho poro refogado, cebola mussarela bakon</p>
         <p>valor R$48,00</p>
         <div class="price">
-          <button class="botao-padrao">comprar <i class="bi bi-bag-check-fill"></i></button>
+          <button class="botao-padrao add-to-cart" data-name="pizza de alho poro" data-price="R$48,00">adicionar <i class="bi bi-cart-plus-fill"></i></button>
         </div>
       </div>
     </div>
@@ -1079,7 +1080,7 @@ style="width: 18rem;">
         <p>Ingredientes: mussarela, coração de alcachofra, palmito, champignon, catupiri e parmesão.</p>
         <p>Valor R$54,00</p>
         <div class="price">
-          <button class="botao-padrao">comprar <i class="bi bi-bag-check-fill"></i></button>
+          <button class="botao-padrao add-to-cart" data-name="pizza de alcachofra" data-price="R$54,00">adicionar <i class="bi bi-cart-plus-fill"></i></button>
         </div>
       </div>
     </div>
@@ -1097,7 +1098,7 @@ style="width: 18rem;">
         <p>Ingredientes: atum em pedaços e cebola</p>
         <p>Valor R$50,00</p>
         <div class="price">
-          <button class="botao-padrao">comprar <i class="bi bi-bag-check-fill"></i></button>
+          <button class="botao-padrao add-to-cart" data-name="pizza de atum" data-price="R$50,00">adicionar <i class="bi bi-cart-plus-fill"></i></button>
         </div>
       </div>
     </div>
@@ -1118,7 +1119,7 @@ style="width: 18rem;">
             meia xícara (chá) de água (100 ml), 8 pães tipo francês cortados ao meio</p>
             <p>Valor R$ 12,00</p>
             <div class="price">
-          <button class="botao-padrao">comprar <i class="bi bi-bag-check-fill"></i></button>
+          <button class="botao-padrao add-to-cart" data-name="lanche de pernil" data-price="R$12,00">adicionar <i class="bi bi-cart-plus-fill"></i></button>
         </div>
       </div>
     </div>
@@ -1136,7 +1137,7 @@ style="width: 18rem;">
         <p>Ingredientes:mussarela e bacon</p>
         <p>Valor R$46,00</p>
         <div class="price">
-          <button class="botao-padrao">comprar <i class="bi bi-bag-check-fill"></i></button>
+          <button class="botao-padrao add-to-cart" data-name="pizza de bacon" data-price="R$46,00">adicionar <i class="bi bi-cart-plus-fill"></i></button>
         </div>
       </div>
     </div>
@@ -1154,7 +1155,7 @@ style="width: 18rem;">
         <p>Ingredientes: presunto, mussarela e tomate</p>
         <p>Valor R$46,00</p>
         <div class="price">
-          <button class="botao-padrao">comprar <i class="bi bi-bag-check-fill"></i></button>
+          <button class="botao-padrao add-to-cart" data-name="pizza de bauru" data-price="R$46">adicionar <i class="bi bi-cart-plus-fill"></i></button>
         </div>
       </div>
     </div>
@@ -1164,7 +1165,7 @@ style="width: 18rem;">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Pizza de Bauru</h2>
+        <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Pizza Baiana</h2>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
@@ -1172,7 +1173,7 @@ style="width: 18rem;">
         <p>Ingredientes: presunto, mussarela e tomate</p>
         <p>Valor R$46,00</p>
         <div class="price">
-          <button class="botao-padrao">comprar <i class="bi bi-bag-check-fill"></i></button>
+          <button class="botao-padrao add-to-cart" data-name="pizza baiana" data-price="R$46,00">adicionar <i class="bi bi-cart-plus-fill"></i></button>
         </div>
       </div>
     </div>
@@ -1190,7 +1191,7 @@ style="width: 18rem;">
         <p>Ingredientes:beringela refogada e mussarela</p>
         <p>Valor R$42,00</p>
         <div class="price">
-          <button class="botao-padrao">comprar <i class="bi bi-bag-check-fill"></i></button>
+          <button class="botao-padrao add-to-cart" data-name="pizza de beringela" data-price="R$42,00">adicionar <i class="bi bi-cart-plus-fill"></i></button>
         </div>
       </div>
     </div>
@@ -1208,7 +1209,7 @@ style="width: 18rem;">
         <p>Ingredientes:atum em pedaços, palmito e champignon</p>
         <p>Valor R$52,00</p>
         <div class="price">
-          <button class="botao-padrao">comprar <i class="bi bi-bag-check-fill"></i></button>
+          <button class="botao-padrao add-to-cart" data-name="pizza brasileira" data-price="R$52,00">adicionar <i class="bi bi-cart-plus-fill"></i></button>
         </div>
       </div>
     </div>
@@ -1226,7 +1227,7 @@ style="width: 18rem;">
         <p>Ingredientes:Brócolis temperado, mussarela e bacon</p>
         <p>Valor R$50,00</p>
         <div class="price">
-          <button class="botao-padrao">comprar <i class="bi bi-bag-check-fill"></i></button>
+          <button class="botao-padrao add-to-cart" data-name="pizza de brocolis" data-price="R$50,00">adicionar <i class="bi bi-cart-plus-fill"></i></button>
         </div>
       </div>
     </div>
@@ -1244,7 +1245,7 @@ style="width: 18rem;">
         <p>Ingredientes:Brócolis, palmito, mussarela, catupiri e parmesão</p>
         <p>Valor R$50,00</p>
         <div class="price">
-          <button class="botao-padrao">comprar <i class="bi bi-bag-check-fill"></i></button>
+          <button class="botao-padrao add-to-cart" data-name="pizza de brocolis-1" data-price="R$50,00">adicionar <i class="bi bi-cart-plus-fill"></i></button>
         </div>
       </div>
     </div>
@@ -1254,7 +1255,7 @@ style="width: 18rem;">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Pizza capira</h2>
+        <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Pizza caipíra</h2>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
@@ -1262,7 +1263,7 @@ style="width: 18rem;">
         <p>Ingredientes:frango temperado, milho e catupiri</p>
         <p>Valor R$50,00</p>
         <div class="price">
-          <button class="botao-padrao">comprar <i class="bi bi-bag-check-fill"></i></button>
+          <button class="botao-padrao add-to-cart" data-name="pizza caipira" data-price="R$50,00">adcionar <i class="bi bi-cart-plus-fill"></i></button>
         </div>
       </div>
     </div>
@@ -1280,7 +1281,7 @@ style="width: 18rem;">
         <p>Ingredientes:calabresa fatiada e cebola</p>
         <p>Valor R$42,00</p>
         <div class="price">
-          <button class="botao-padrao">comprar <i class="bi bi-bag-check-fill"></i></button>
+          <button class="botao-padrao add-to-cart" data-name="pizza de calabresa" data-price="R$42,00">adicionar <i class="bi bi-cart-plus-fill"></i></button>
         </div>
       </div>
     </div>
@@ -1298,7 +1299,7 @@ style="width: 18rem;">
         <p>Ingredientes:calabresa fatiada, cebola e mussarela</p>
         <p>Valor R$46,00</p>
         <div class="price">
-          <button class="botao-padrao">comprar <i class="bi bi-bag-check-fill"></i></button>
+          <button class="botao-padrao add-to-cart" data-name="pizza de calamussa" data-price="R$46,00">adicionar <i class="bi bi-cart-plus-fill"></i></button>
         </div>
       </div>
     </div>
@@ -1316,7 +1317,7 @@ style="width: 18rem;">
         <p>Ingredientes:camarao temperado catupiri ou mussarela</p>
         <p>Valor R$70,00</p>
         <div class="price">
-          <button class="botao-padrao">comprar <i class="bi bi-bag-check-fill"></i></button>
+          <button class="botao-padrao add-to-cart" data-name="pizza de camarao" data-price="R$70,00">adicionar <i class="bi bi-cart-plus-fill"></i></button>
         </div>
       </div>
     </div>
@@ -1332,9 +1333,9 @@ style="width: 18rem;">
       <div class="modal-body">
         <img src="assets/pizza-de-carne-seca.webp" class="w-100" alt="mussrela, ovos, carne seca temperada" title="pizza de carne seca" loading="lazy">
         <p>Ingredientes:mussrela, ovos, carne seca temperada</p>
-        <p>Valor R$70,00</p>
+        <p>Valor R$52,00</p>
         <div class="price">
-          <button class="botao-padrao">comprar <i class="bi bi-bag-check-fill"></i></button>
+          <button class="botao-padrao add-to-cart" data-name="pizza de carne seca" data-price="52,00">adicionar <i class="bi bi-cart-plus-fill"></i></button>
         </div>
       </div>
     </div>
@@ -1352,7 +1353,7 @@ style="width: 18rem;">
         <p>Ingredientes:mussarela, catupiri, provolone, parmesão e gorgonzola</p>
         <p>Valor R$55,00</p>
         <div class="price">
-          <button class="botao-padrao">comprar <i class="bi bi-bag-check-fill"></i></button>
+          <button class="botao-padrao add-to-cart" data-name="pizza de cinco queijos" data-price="R$55,00">adicionar <i class="bi bi-cart-plus-fill"></i></button>
         </div>
       </div>
     </div>
@@ -1370,7 +1371,7 @@ style="width: 18rem;">
         <p>Ingredientes:mussarela, pernil, cebola, catupiri, e alho poro</p>
         <p>Valor R$50,00</p>
         <div class="price">
-          <button class="botao-padrao">comprar <i class="bi bi-bag-check-fill"></i></button>
+          <button class="botao-padrao add-to-cart" data-name="pizza colonial" data-price="R$50,00">adicionar <i class="bi bi-cart-plus-fill"></i></button>
         </div>
       </div>
     </div>
@@ -1388,7 +1389,7 @@ style="width: 18rem;">
         <p>Ingredientes:peitu de peru, ovos, cebola, e cream cheese</p>
         <p>Valor R$50,00</p>
         <div class="price">
-          <button class="botao-padrao">comprar <i class="bi bi-bag-check-fill"></i></button>
+          <button class="botao-padrao add-to-cart" data-name="pizza de cream cheese" data-price="R$50,00">adicionar <i class="bi bi-cart-plus-fill"></i></button>
         </div>
       </div>
     </div>
@@ -1398,7 +1399,7 @@ style="width: 18rem;">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Pizza de cream cheese</h2>
+        <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Pizza de cream cheese 1</h2>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
@@ -1406,7 +1407,7 @@ style="width: 18rem;">
         <p>Ingredientes:peitu de peru, ovos, cebola, e cream cheese</p>
         <p>Valor R$52,00</p>
         <div class="price">
-          <button class="botao-padrao">comprar <i class="bi bi-bag-check-fill"></i></button>
+          <button class="botao-padrao add-to-cart" data-name="pizza de cream cheese" data-price="R$52,00">adicionar <i class="bi bi-cart-plus-fill"></i></button>
         </div>
       </div>
     </div>
@@ -1424,7 +1425,7 @@ style="width: 18rem;">
         <p>Ingredientes:peitu de peru, ovos, cebola, e cream cheese</p>
         <p>Valor R$52,00</p>
         <div class="price">
-          <button class="botao-padrao">comprar <i class="bi bi-bag-check-fill"></i></button>
+          <button class="botao-padrao add-to-cart" data-name="pizza crocante" data-price="R$52,00">adicionar <i class="bi bi-cart-plus-fill"></i></button>
         </div>
       </div>
     </div>
@@ -1442,7 +1443,7 @@ style="width: 18rem;">
         <p>Ingredientes:mussarela e catupiry</p>
         <p>Valor R$45,00</p>
         <div class="price">
-          <button class="botao-padrao">comprar <i class="bi bi-bag-check-fill"></i></button>
+          <button class="botao-padrao add-to-cart" data-name="pizza de dois queijos" data-price="R$45,00">adicionar <i class="bi bi-cart-plus-fill"></i></button>
         </div>
       </div>
     </div>
@@ -1460,7 +1461,7 @@ style="width: 18rem;">
         <p>Ingredientes:atum em pedaços, cebola, catupiri, mussarela, e bacon</p>
         <p>Valor R$55,00</p>
         <div class="price">
-          <button class="botao-padrao">comprar <i class="bi bi-bag-check-fill"></i></button>
+          <button class="botao-padrao add-to-cart" data-name="pizz-don-francesco" data-price="R$55,00">adicionar <i class="bi bi-cart-plus-fill"></i></button>
         </div>
       </div>
     </div>
@@ -1478,7 +1479,7 @@ style="width: 18rem;">
         <p>Ingredientes:escarola refogada, mussarela, e bacon</p>
         <p>Valor R$42,00</p>
         <div class="price">
-          <button class="botao-padrao">comprar <i class="bi bi-bag-check-fill"></i></button>
+          <button class="botao-padrao add-to-cart" data-name="pizza de escorola" data-price="R$42,00">adicionar <i class="bi bi-cart-plus-fill"></i></button>
         </div>
       </div>
     </div>
@@ -1496,7 +1497,7 @@ style="width: 18rem;">
         <p>Ingredientes:mussarela, tiras de filé mingon, catupiri, e alho frito</p>
         <p>Valor R$62,00</p>
         <div class="price">
-          <button class="botao-padrao">comprar <i class="bi bi-bag-check-fill"></i></button>
+          <button class="botao-padrao add-to-cart" data-name="pizza de file mingon" data-price="R$62,00">adicionar <i class="bi bi-cart-plus-fill"></i></button>
         </div>
       </div>
     </div>
@@ -1514,7 +1515,7 @@ style="width: 18rem;">
         <p>Ingredientes:fango temperado e catupiri</p>
         <p>Valor R$48,00</p>
         <div class="price">
-          <button class="botao-padrao">comprar <i class="bi bi-bag-check-fill"></i></button>
+          <button class="botao-padrao add-to-cart" data-name="pizza de frango com catupiry" data-price="R$48,00">adicionar <i class="bi bi-cart-plus-fill"></i></button>
         </div>
       </div>
     </div>
@@ -1529,10 +1530,10 @@ style="width: 18rem;">
       </div>
       <div class="modal-body">
         <img src="assets/pizza-hot-dog.webp" class="w-100" alt="mussarela, salsicha, milho, ervilha, catupiry, cheddar, e batata palha" title="pizza de hot dog" loading="lazy">
-        <p>Ingredientes:fango temperado e catupiri</p>
+        <p>Ingredientes:fango temperado e catupiry</p>
         <p>Valor R$48,00</p>
         <div class="price">
-          <button class="botao-padrao">comprar <i class="bi bi-bag-check-fill"></i></button>
+          <button class="botao-padrao add-to-cart" data-name="pizza de hot-dog" data-price="R$48,00">adicionar <i class="bi bi-cart-plus-fill"></i></button>
         </div>
       </div>
     </div>
@@ -1550,7 +1551,7 @@ style="width: 18rem;">
         <p>Ingredientes:lombo, cebola, mussarela, catupiri, e bacon</p>
         <p>Valor R$50,00</p>
         <div class="price">
-          <button class="botao-padrao">comprar <i class="bi bi-bag-check-fill"></i></button>
+          <button class="botao-padrao add-to-cart" data-name="pizza de lombo" data-price="R$50,00">adicionar <i class="bi bi-cart-plus-fill"></i></button>
         </div>
       </div>
     </div>
@@ -1568,7 +1569,7 @@ style="width: 18rem;">
         <p>Ingredientes:mussarela, manjericao, tomate, e parmesão</p>
         <p>Valor R$46,00</p>
         <div class="price">
-          <button class="botao-padrao">comprar <i class="bi bi-bag-check-fill"></i></button>
+          <button class="botao-padrao add-to-cart" data-name="pizza de marguerita" data-price="R$46,00">adicionar <i class="bi bi-cart-plus-fill"></i></button>
         </div>
       </div>
     </div>
@@ -1586,7 +1587,7 @@ style="width: 18rem;">
         <p>Ingredientes:milho verde, catupiry ou mussarela</p>
         <p>Valor R$46,00</p>
         <div class="price">
-          <button class="botao-padrao">comprar <i class="bi bi-bag-check-fill"></i></button>
+          <button class="botao-padrao add-to-cart" data-name="pizza de milho verde" data-price="R$46,00">adicionar <i class="bi bi-cart-plus-fill"></i></button>
         </div>
       </div>
     </div>
@@ -1604,7 +1605,7 @@ style="width: 18rem;">
         <p>Ingredientes:frango temperado, palmito, champignon, ervilha, ovos, bacon, e mussarela</p>
         <p>Valor R$50,00</p>
         <div class="price">
-          <button class="botao-padrao">comprar <i class="bi bi-bag-check-fill"></i></button>
+          <button class="botao-padrao add-to-cart" data-name="pizza a moda casa" data-price="R$50,00">adicionar <i class="bi bi-cart-plus-fill"></i></button>
         </div>
       </div>
     </div>
@@ -1622,7 +1623,7 @@ style="width: 18rem;">
         <p>Ingredientes:mussarela e tomate</p>
         <p>Valor R$42,00</p>
         <div class="price">
-          <button class="botao-padrao">comprar <i class="bi bi-bag-check-fill"></i></button>
+          <button class="botao-padrao add-to-cart" data-name="pizza de mussarela" data-price="R$42,00">adicionar <i class="bi bi-cart-plus-fill"></i></button>
         </div>
       </div>
     </div>
@@ -1640,7 +1641,7 @@ style="width: 18rem;">
         <p>Ingredientes:mussrela, tomate, e parmesão</p>
         <p>Valor R$46,00</p>
         <div class="price">
-          <button class="botao-padrao">comprar <i class="bi bi-bag-check-fill"></i></button>
+          <button class="botao-padrao add-to-cart" data-name="pizza napolitana" data-price="R$46,00">adicionar <i class="bi bi-cart-plus-fill"></i></button>
         </div>
       </div>
     </div>
@@ -1658,7 +1659,7 @@ style="width: 18rem;">
         <p>Ingredientes:palmito e mussarela</p>
         <p>Valor R$46,00</p>
         <div class="price">
-          <button class="botao-padrao">comprar <i class="bi bi-bag-check-fill"></i></button>
+          <button class="botao-padrao add-to-cart" data-name="pizza de palmito" data-price="R$46,00">adicionar <i class="bi bi-cart-plus-fill"></i></button>
         </div>
       </div>
     </div>
@@ -1676,7 +1677,7 @@ style="width: 18rem;">
         <p>Ingredientes:mussarela e peperoni</p>
         <p>Valor R$50,00</p>
         <div class="price">
-          <button class="botao-padrao">comprar <i class="bi bi-bag-check-fill"></i></button>
+          <button class="botao-padrao add-to-cart" data-name="pizza de peperoni" data-price="R$50,00">adicionar <i class="bi bi-cart-plus-fill"></i></button>
         </div>
       </div>
     </div>
@@ -1694,7 +1695,7 @@ style="width: 18rem;">
         <p>Ingredientes:pernil, ovos, mussarela, provolone, tomate, e bacon</p>
         <p>Valor R$50,00</p>
         <div class="price">
-          <button class="botao-padrao">comprar <i class="bi bi-bag-check-fill"></i></button>
+          <button class="botao-padrao add-to-cart" data-name="pizza de pernil" data-price="R$50,00">adicionar <i class="bi bi-cart-plus-fill"></i></button>
         </div>
       </div>
     </div>
@@ -1712,7 +1713,7 @@ style="width: 18rem;">
         <p>Ingredientes:peitu de peru, cebola, mussarela, catupiri, e bacon</p>
         <p>Valor R$50,00</p>
         <div class="price">
-          <button class="botao-padrao">comprar <i class="bi bi-bag-check-fill"></i></button>
+          <button class="botao-padrao add-to-cart" data-name="pizza de peito de peru" data-price="R$50,00">adicionar <i class="bi bi-cart-plus-fill"></i></button>
         </div>
       </div>
     </div>
@@ -1730,7 +1731,7 @@ style="width: 18rem;">
         <p>Ingredientes:presunto, ervilha, ovos, cebola, e mussarela</p>
         <p>Valor R$46,00</p>
         <div class="price">
-          <button class="botao-padrao">comprar <i class="bi bi-bag-check-fill"></i></button>
+          <button class="botao-padrao add-to-cart" data-name="pizza portuguesa" data-price="R$46,00">adicionar <i class="bi bi-cart-plus-fill"></i></button>
         </div>
       </div>
     </div>
@@ -2453,7 +2454,6 @@ style="width: 18rem;">
     </div>
   </div>
 </div>
-<!--footer-->
 <footer class="text-center" id="contato">
   <section class="container p-4 pb-0">
    <div class="icons">
