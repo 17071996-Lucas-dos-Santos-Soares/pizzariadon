@@ -105,7 +105,7 @@ span.navbar-toggler-icon {
   text-shadow: 1px 1px 1px #00000080;
 }
 .main-btn{
-  margin-left: -1454px;
+  margin-left: -1310px;
   background: transparent;
   border: 1px solid #fff;
   font-size: 1.1rem;
@@ -397,6 +397,21 @@ footer p {
   background: #fff;
   border: solid 3px #bf9f6b;
 }
+.footer-cart{
+  width: 100%;
+  background-color: #8d5b3c;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  bottom: 0px;
+  position: fixed;
+  z-index: 40;
+}
+.footer-cart button{
+  background: transparent;
+  border: none;
+  border-radius: 30px;
+  color: white;
+}
 @media(max-width:1489px) {
   .main-btn{
     margin-left:-79rem;
@@ -506,7 +521,7 @@ footer p {
   }
   .paragraph1 {
     font-family: "Great Vibes", cursive;
-    color: #fff;
+    color: #ff0000;
     font-size: 30px;
     text-align: center;
     margin: 0px 20px;
