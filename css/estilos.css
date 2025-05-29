@@ -425,7 +425,6 @@ footer p {
     color: #fff;
   }
 }
-/* responsividade macbook */
 @media(max-width:1280px) {
   .title-1{
     font-family: "Great Vibes", cursive;
@@ -521,7 +520,7 @@ footer p {
   }
   .paragraph1 {
     font-family: "Great Vibes", cursive;
-    color: #ff0000;
+    color: #fff;
     font-size: 30px;
     text-align: center;
     margin: 0px 20px;
