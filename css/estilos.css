@@ -246,6 +246,7 @@ input[type=checkbox] {
 .offcanvas-title {
   color: #E6E0D6;
   text-align: center;
+  background-color: #AB6F47;
 }
 .accordion-body {
   border-radius: 15px;
