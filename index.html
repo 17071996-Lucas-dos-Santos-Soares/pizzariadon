@@ -838,7 +838,7 @@ style="width: 18rem;">
 </section>
       <section class="banners banner-3 d-flex flex-column justify-content-center text-center container-fluid" id="sobre">
         <div>
-          <h2 class="fw-bold title-sobre">Sobre Nós</h2>
+          <h2 class="fw-bold title-sobre">sobre nós</h2>
           <p class="paragraph-2">Fundada em 2019, a Dom Francesco nasceu do sonho de levar aos apaixonados por pizza uma experiência saborosa, acolhedora e inesquecível. Aqui, cada pizza é preparada com carinho, ingredientes selecionados e assada no tradicional forno a lenha, garantindo aquele sabor inconfundível que remete às boas memórias e aos momentos compartilhados em volta da mesa.
           Somos uma pizzaria 100% brasileira, que valoriza a simplicidade e a excelência. Mais do que pizzas, oferecemos experiências — seja para celebrar com a família, reunir os amigos ou simplesmente matar aquela vontade de uma pizza quentinha e feita na hora Na Dom Francesco, cada fatia conta uma história. E a gente espera fazer parte da sua.</p>
         </div>
@@ -1008,8 +1008,21 @@ style="width: 18rem;">
           <div class="price">
             <button class="botao-padrao add-to-cart" data-name="pizza de abobrinha" data-price="42">adicionar <i class="bi bi-cart-plus-fill"></i></button>
         </div>
-        </div>
-      </div>
+        <div class="modal-cart w-100 h-100 fixed top-0 left-0 z-99">
+  <div class="cart">
+    <h2>Meu carrinho</h2>
+    <div id="cart-items"></div>
+    <p>Total: <span id="cart-total">0.00</span></p>
+    <p>Endereço de entrega:</p>
+    <input type="text" placeholder="Digite seu endereço..." id="adress">
+    <p class="text-danger">Digite seu endereço completo</p>
+    <div>
+      <button id="checkout-btn" class="checkout">Finalizar pedido</button>
+    </div>
+  </div>
+  </div>
+  </div>
+</div>
     </div>
   </div>
   <div class="modal fade" id="modal-2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
