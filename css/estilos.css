@@ -118,7 +118,7 @@ span.navbar-toggler-icon {
 }
 .main-btn:hover {
   transition: all .2s ease-in-out;
-  background-image: linear-gradient(135deg, #8C5B3B, #d4af37);
+  background:linear-gradient(135deg, #000, #4d0000, #ff0000);
   color: #fff;
   border: solid 1px #bf9f6b;
 }
@@ -138,6 +138,14 @@ padding-top: 50px;
 padding-bottom: 50px;
 }
 
+.title-servicos {
+  font-family: "Great Vibes", cursive;
+  font-size: 40px;
+  text-transform: capitalize;
+  margin-top: 2rem;
+  text-shadow:2px 2px 2px #D4AF37;
+}
+
 #produtos {
 width: 100%;
 height: 100%;
@@ -152,13 +160,7 @@ background-color: #f5f5f5;
   text-transform: capitalize;
   text-shadow:2px 2px 2px #d4af37;
 }
-.title-servicos {
-  font-family: "Great Vibes", cursive;
-  font-size: 40px;
-  text-transform: capitalize;
-  margin-top: 2rem;
-  text-shadow:2px 2px 2px #D4AF37;
-}
+
 .title-sobre{
   font-family: "Great Vibes", cursive;
   font-size: 40px;
@@ -412,6 +414,36 @@ footer p {
   border: none;
   border-radius: 30px;
   color: white;
+}
+.cart{
+  background-color: #fff;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+.modal-cart{
+  width: 100%;
+  border-radius: 30px;
+}
+.cart h2{
+  font-size: 18px;
+  text-align: center;
+}
+.cart input{
+  outline: none;
+  border-radius: 30px;
+  border: solid 2px rgba(0, 0, 0, 0.5);
+}
+.cart p.text-danger{
+  display: none;
+}
+.checkout,button{
+  background: #8C5B3B;
+  border: none;
+  border-radius: 30px;
+  color: #fff;
+  padding:8px;
+  margin-top: 10px;
+  box-shadow: #00000059 0px 5px 15px;
 }
 @media(max-width:1489px) {
   .main-btn{
