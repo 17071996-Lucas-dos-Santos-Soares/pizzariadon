@@ -415,15 +415,26 @@ footer p {
   border-radius: 30px;
   color: white;
 }
-.cart{
-  background-color: #fff;
-  border-radius: 5px;
-  margin-top: 10px;
-}
 .modal-cart{
   width: 100%;
   border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 300px;
+  left: 0px;
+  z-index: 9999;
 }
+
+.cart{
+  background-color: #ffffffd7;
+  border-radius: 5px;
+  margin-top: 10px;
+  padding: 50px;
+  border: solid 2px #00000080;
+}
+
 .cart h2{
   font-size: 18px;
   text-align: center;
