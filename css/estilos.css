@@ -105,7 +105,7 @@ span.navbar-toggler-icon {
   text-shadow: 1px 1px 1px #00000080;
 }
 .main-btn{
-  margin-left: -1310px;
+  margin-left: -1454px;
   background: transparent;
   border: 1px solid #fff;
   font-size: 1.1rem;
@@ -456,7 +456,7 @@ footer p {
   margin-top: 10px;
   box-shadow: #00000059 0px 5px 15px;
 }
-@media(max-width:1489px) {
+@media(max-width:1500px) {
   .main-btn{
     margin-left:-1454px;
     background: transparent;
