@@ -264,7 +264,7 @@ input[type="checkbox"]:focus {
   background-image: url(../assets/fundo-home.png);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: 100%, 104%;
   padding-top:50px;
   padding-bottom:50px;
   border-bottom-right-radius: 30px;
@@ -275,7 +275,7 @@ input[type="checkbox"]:focus {
   height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center,center;
+  background-position: center;
   background-attachment: fixed;
   filter: brightness(0.9);
 }
@@ -456,7 +456,7 @@ footer p {
   margin-top: 10px;
   box-shadow: #00000059 0px 5px 15px;
 }
-@media(max-width:1648px) {
+@media(max-width:1500px) {
   .main-btn{
     margin-left:-1454px;
     background: transparent;
