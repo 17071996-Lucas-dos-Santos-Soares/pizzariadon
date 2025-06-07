@@ -628,4 +628,7 @@ footer p {
   color: transparent;
   -webkit-text-stroke: 1px #fff;
 }
+.cart{
+  margin-left: -380px;
+}
 }
