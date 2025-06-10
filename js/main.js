@@ -35,7 +35,7 @@ revelar.reveal('.animate-main-btn',{
      distance: '90px',
      origin: 'left'
 })
-// carrinho
+
 const menu = document.getElementById("menu");
 const cartBtn = document.getElementById("cart-btn");
 const cartModal = document.getElementById("cart-modal");
@@ -49,13 +49,11 @@ const addressWarn = document.getElementById("address-warn");
 
 let cart = [];
 
-// Abrir o modal do carrinho
 cartBtn.addEventListener("click", function(){
     updateCartModal();
     cartModal.style.display = "flex";
 });
 
-// Fechar o modal do carrinho
 cartModal.addEventListener("click", function(event){
     if(event.target === cartModal){
         cartModal.style.display = "none";
@@ -107,7 +105,6 @@ function updateCartModal(){
             <p class="fw-bold mt-2">R$ ${item.price.toFixed(2)}</p>
         </div>
         `;
-
         const removeBtn = document.createElement("button");
         removeBtn.textContent = "Remover";
         removeBtn.addEventListener("click", function() {
@@ -123,6 +120,31 @@ function updateCartModal(){
         style: "currency",
         currency: "BRL"
     });
-
+    
     cartCounter.innerHTML = `veja meu carrinho ${cart.length} <i class="bi bi-cart-plus-fill"></i>`;
 }
+
+addressInput.addEventListener("input", function(event){
+    let inputValue = event.target.value;
+    if(inputValue =! ""){
+        addressWarn.style.display = "none";
+     }
+})
+
+ checkoutBtn.addEventListener("click", function(){
+    if(cart.length === 0) return;
+    if(addressInput.value === ""){
+        addressWarn.style.display = "flex";
+        return;
+    }
+    const cartItems = cart.map((item) => {
+        return (
+            `${item.name} Quantidade: (${item.quantity}) Preço: R$ ${item.price} |`
+        )
+    }).join("")
+    const message = encodeURIComponent(cartItems)
+    const phone = "+5511986912850";
+    window.open(`https://wa.me/${phone}?text=${message} Endereço: ${addressInput.value}`, "_blank");
+    cart.length = 0;
+    updateCartModal();
+ })
