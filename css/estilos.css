@@ -168,6 +168,15 @@ background-color: #f5f5f5;
   color: #fff;
   text-shadow:2px 2px 2px #D4AF37;
 }
+.text-sobre{
+  color: #fff;
+  font-family: "Barlow Regular", sans-serif;
+  font-size: 20px;
+  line-height: 21px;
+  letter-spacing: 0.6px;
+  text-shadow: 2px 2px 2px black;
+
+}
 .frase{
   width: 100%;
   padding-top: 60px;
@@ -615,6 +624,13 @@ footer p {
   .title-sobre{
     margin-top: 40px;
   }
+  .title-sobre{
+  font-family: "Great Vibes", cursive;
+  font-size: 40px;
+  text-transform: capitalize;
+  color: #fff;
+  text-shadow:2px 2px 2px #D4AF37;
+}
   .paragraph-2{
   font-family: "Barlow", sans-serif;
   color: #fff;
