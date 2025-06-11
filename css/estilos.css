@@ -635,6 +635,7 @@ footer p {
   -webkit-text-stroke: 1px #fff;
 }
 .frase a{
+  border: solid 2px #7e5235;
   box-shadow: #2c1b13 0px 5px 15px;
 }
 .cart{
