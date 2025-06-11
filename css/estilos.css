@@ -428,11 +428,13 @@ footer p {
 }
 
 .cart{
+  max-height: 600px;
+  overflow-y: auto;
   background-color: #ffffffd7;
   border-radius: 5px;
   margin-top: 10px;
   padding: 50px;
-  border: solid 2px #00000080;
+  box-shadow: #8C5B3B 2px 5px 15px;
 }
 
 .cart h2{
