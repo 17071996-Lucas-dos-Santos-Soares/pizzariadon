@@ -680,7 +680,7 @@ footer p {
   box-shadow: #2c1b13 0px 5px 15px;
 }
 .cart{
-  margin-left: -380px;
+  margin: 0 auto;
 }
 .cart{
   max-height: 300px;
