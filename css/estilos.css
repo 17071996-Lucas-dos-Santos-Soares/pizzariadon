@@ -42,11 +42,13 @@ a{
 .nav-link i:hover{
   color: #fff;
 }
-span.navbar-toggler-icon {
-  background-color: #cfe2ff;
+span.navbar-toggler-icon i{
+  background-color: #592C1C;
   color: #fff;
+  width: 40px;
+  height: 40px;
   padding: 10px;
-  border-radius: 10px;
+  border-radius: 50%;
 }
 .bi .bi-moon-stars-fill {
   cursor: pointer;
